@@ -1,0 +1,53 @@
+---
+institution: 'Max Planck Institute of Immunobiology and Epigenetics'
+title: 'Computational epigenomics study of the Male-Specific Lethal complex in flies and mammals'
+author: 'Vivek BHARDWAJ'
+advisor: 'Dr. Asifa AKHTAR'
+secondreviewer: 'Dr. Thomas Manke'
+thirdreviewer: 'Dr. Giorgos Pyrowolakis'
+decan: 'Mr. Decan'
+promotionsvorsitzender: 'Dr. Someone'
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+output:
+  thesisdown::thesis_pdf: default
+# format than PDF, you can delete or ignore lines 20-31 in this YAML header.
+acknowledgements: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00-acknowledgements.Rmd"), collapse = '\n  ')`
+abstract: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00-abstract.Rmd"), collapse = '\n  ')`
+bibliography: bib/thesis.bib
+# Download your specific bibliography database file and refer to it in the line above.
+csl: csl/apa.csl
+# Download your specific csl file and refer to it in the line above.
+lot: false
+lof: true
+space_between_paragraphs: true
+---
+
+```{r include_packages, include = FALSE}
+# This chunk ensures that the thesisdown package is
+# installed and loaded. This thesisdown package includes
+# the template files for the thesis.
+if(!require(devtools))
+  install.packages("devtools", repos = "http://cran.rstudio.com")
+if(!require(thesisdown))
+  devtools::install_github("ismayc/thesisdown")
+library(thesisdown)
+```
+
+# Abbreviations {-}
+
+```{r echo = FALSE}
+## an example of how to include abbreviations
+library(tibble)
+library(dplyr)
+library(knitr)
+
+data_frame(
+  Term = c("Working memory", "Short-term memory", "Long-term memory"),
+  Abbreviation = c("WM", "STM", "LTM")) %>%
+  arrange(Term) %>% # i.e. alphabetical order by Term
+  kable(booktab = T) # booktab = T gives us a pretty APA-ish table
+```
