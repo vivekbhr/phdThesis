@@ -7,60 +7,49 @@
 
 ## Analysis of chromosome conformation in flies
 
-\begin{center}
-\noindent\overbox[c]{}
-
-\end{center}
-
-
 I contributed to the development of HiCExplorer and HiCBrowser (led by Fidel Ramirez), and developed the Chorogenome Navigator resource. I performed the analysis of motif combinations and boundary strength, prediction of motifs, and relationship of TAD boundary and transcription (Fig 2, S2, 4, S4, 5 and S5). Together with Fidel Ramirez and Thomas Manke I devised, wrote, and revised the manuscript.
 
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm]{manuscripts/NatComm_2018_article.pdf}
+
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm]{manuscripts/NatComm_2018_supple.pdf}
 
 ## Galaxy HiCExplorer
 
-\begin{center}
-\noindent\overbox[c]{}
-
-\end{center}
-
 I contributed to the development of HiCExplorer and designed the template workflow for the galaxy web server. I contributed to the writing and revision of the manuscript along with Joachim Wolff and other authors.
 
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm]{manuscripts/NAR_2018_article.pdf}
 
 ## Analysis of dosage compensation in flies via promoter-profiling
 
-\begin{center}
-\noindent\overbox[c]{}
-
-\end{center}
 
 I contributed to the development of the MAPCap protocol by providing the analysis input, where all the experiments were performed by Giuseppe Semplicio. I developed the icetea bioconductor package and performed all the analysis presented in the paper, made the figures and wrote the manuscript with input from Giuseppe Semplicio.
 
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm]{manuscripts/mapcap_paper_14-09-2018.pdf}
+
+
 ## Interaction of MLE ortholog DHX9 with Alu elements in the human genome
 
-\begin{center}
-\noindent\overbox[c]{}
-
-\end{center}
 
 I performed the analysis of UV-CLAP data for estimation of Alu enrichment (Extended data Fig. 2 and 3) and performed the RNA-seq analysis for detection of differential expression, splicing, circular RNAs and RNA editing (Fig. 2a, 2b, 3a, Extended Data Figure 6, 7, 10). I contributed to the writing and revision of the manuscript along with Tugce Aktas, Ibrahim Ilik, Asifa Akhtar and other authors.
 
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm]{manuscripts/Nature_2017_article_supple.pdf}
+
+
 ## Update of the deepTools toolkit for exploring deep-sequencing data
 
-\begin{center}
-\noindent\overbox[c]{}
-
-\end{center}
 
 I contributed to the development of deepTools2 (led by Fidel Ramirez and Devon Ryan) through features and bugfixes, and to the testing and update of the documentation and the galaxy server. I helped with the writing and revision of the manuscript by Fidel Ramirez and other authors.
 
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm]{manuscripts/NAR_2016_article.pdf}
+
+
 ## snakePipes enables reproducible epigenomic analysis
 
-\begin{center}
-\noindent\overbox[c]{}
-
-\end{center}
 
 I developed the allele-specific and HiC workflows and contributed to DNA-mapping, ChIP-seq, ATAC-seq and RNA-seq workflows and documentation. I performed the analysis, prepared the figures and wrote the manuscript with input from all authors.
+
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm]{manuscripts/snakepipes_manuscript_10-09-2018.pdf}
+
 
 # Supplemental information
 
