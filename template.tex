@@ -100,10 +100,6 @@ $endif$
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-\Acknowledgements{
-$acknowledgements$
-}
-
 $for(header-includes)$
 	$header-includes$
 $endfor$
@@ -152,6 +148,22 @@ $if(abstract)$
     $abstract$
   \end{abstract}
 $endif$
+
+% abbreviations only support .tex syntex
+$if(abbreviations)$
+\listofsymbols{ll}
+{
+  \input{$abbreviations$}
+}
+$endif$
+
+%$if(abbreviations)$
+%  \begin{abbreviations}
+%      {
+
+%      }
+%  \end{abbreviations}
+%$endif$
 
 \mainmatter % here the regular arabic numbering starts
 \pagestyle{fancyplain} % turns page numbering back on

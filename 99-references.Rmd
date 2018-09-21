@@ -12,27 +12,707 @@ delete "References" and replace it.
 # References {-}
 <!--
 This manually sets the header for this unnumbered chapter.
--->
 \markboth{References}{References}
+-->
 <!--
 To remove the indentation of the first entry.
 -->
 \noindent
 
-<!--
-To create a hanging indent and spacing between entries.  These three lines may need to be removed for styles that don't require the hanging indent.
--->
+References
+----------
 
-\setlength{\parindent}{-0.20in}
-\setlength{\leftskip}{0.20in}
-\setlength{\parskip}{8pt}
+1\. Crick, F. Central dogma of molecular biology. *Nature* **227,**
+561--563 (1970).
 
+2\. Epp, C. D. Definition of a gene. *Nature* **389,** 537 (1997).
 
-<!--
-This is just for testing with more citations for the bibliography at the end.  Add other entries into the list here if you'd like them to appear in the bibliography even if they weren't explicitly cited in the document.
--->
+3\. Gerstein, M. B. *et al.* What is a gene, post-ENCODE? History and
+updated definition. *Genome Res.* **17,** 669--681 (2007).
 
----
-nocite: |
-  @Orlando2014-vl, @Shao2012-uu
-...
+4\. Berthelot, C., Villar, D., Horvath, J. E., Odom, D. T. & Flicek, P.
+Complexity and conservation of regulatory landscapes underlie
+evolutionary resilience of mammalian gene expression. *Nat Ecol Evol*
+**2,** 152--163 (2018).
+
+5\. Villegas, V. E. & Zaphiropoulos, P. G. Neighboring gene regulation
+by antisense long non-coding RNAs. *Int. J. Mol. Sci.* **16,**
+3251--3266 (2015).
+
+6\. Catalanotto, C., Cogoni, C. & Zardo, G. MicroRNA in Control of Gene
+Expression: An Overview of Nuclear Functions. *Int. J. Mol. Sci.*
+**17,** (2016).
+
+7\. Engreitz, J. M., Ollikainen, N. & Guttman, M. Long non-coding RNAs:
+spatial amplifiers that control nuclear structure and gene expression.
+*Nat. Rev. Mol. Cell Biol.* **17,** 756--770 (2016).
+
+8\. Siomi, H. & Dreyfuss, G. RNA-binding proteins as regulators of gene
+expression. *Curr. Opin. Genet. Dev.* **7,** 345--353 (1997).
+
+9\. Berger, S. L., Kouzarides, T., Shiekhattar, R. & Shilatifard, A. An
+operational definition of epigenetics. *Genes Dev.* **23,** 781--783
+(2009).
+
+10\. Shendure, J. *et al.* Accurate multiplex polony sequencing of an
+evolved bacterial genome. *Science* **309,** 1728--1732 (2005).
+
+11\. Schuster, S. C. Next-generation sequencing transforms today's
+biology. *Nat. Methods* **5,** 16--18 (2008).
+
+12\. Griffiths, P. E. In what sense does 'nothing make sense except in
+the light of evolution'? *Acta Biotheor.* **57,** 11--32 (2009).
+
+13\. Mouse Genome Sequencing Consortium *et al.* Initial sequencing and
+comparative analysis of the mouse genome. *Nature* **420,** 520--562
+(2002).
+
+14\. Church, D. M. *et al.* Lineage-specific biology revealed by a
+finished genome assembly of the mouse. *PLoS Biol.* **7,** e1000112
+(2009).
+
+15\. Rands, C. M., Meader, S., Ponting, C. P. & Lunter, G. 8.2% of the
+Human genome is constrained: variation in rates of turnover across
+functional element classes in the human lineage. *PLoS Genet.* **10,**
+e1004525 (2014).
+
+16\. Graur, D. An Upper Limit on the Functional Fraction of the Human
+Genome. *Genome Biol. Evol.* **9,** 1880--1885 (2017).
+
+17\. ENCODE Project Consortium. An integrated encyclopedia of DNA
+elements in the human genome. *Nature* **489,** 57--74 (2012).
+
+18\. Riethoven, J.-J. M. Regulatory Regions in DNA: Promoters,
+Enhancers, Silencers, and Insulators. in *Computational Biology of
+Transcription Factor Binding* (ed. Ladunga, I.) 33--42 (Humana Press,
+2010).
+
+19\. Huang, H., Sabari, B. R., Garcia, B. A., Allis, C. D. & Zhao, Y.
+SnapShot: histone modifications. *Cell* **159,** 458--458.e1 (2014).
+
+20\. Fuhrmann, G. *et al.* Mouse germline restriction of Oct4 expression
+by germ cell nuclear factor. *Dev. Cell* **1,** 377--387 (2001).
+
+21\. Feldman, N. *et al.* G9a-mediated irreversible epigenetic
+inactivation of Oct-3/4 during early embryogenesis. *Nat. Cell Biol.*
+**8,** 188--194 (2006).
+
+22\. Smallwood, A. & Ren, B. Genome organization and long-range
+regulation of gene expression by enhancers. *Curr. Opin. Cell Biol.*
+**25,** 387--394 (2013).
+
+23\. Cullen, K. E., Kladde, M. P. & Seyfred, M. A. Interaction between
+transcription regulatory regions of prolactin chromatin. *Science*
+**261,** 203--206 (1993).
+
+24\. Lieberman-Aiden, E. *et al.* Comprehensive mapping of long-range
+interactions reveals folding principles of the human genome. *Science*
+**326,** 289--293 (2009).
+
+25\. Dixon, J. R. *et al.* Topological domains in mammalian genomes
+identified by analysis of chromatin interactions. *Nature* **485,**
+376--380 (2012).
+
+26\. Rao, S. S. P. *et al.* A 3D map of the human genome at kilobase
+resolution reveals principles of chromatin looping. *Cell* **159,**
+1665--1680 (2014).
+
+27\. Dixon, J. R., Gorkin, D. U. & Ren, B. Chromatin Domains: The Unit
+of Chromosome Organization. *Mol. Cell* **62,** 668--680 (2016).
+
+28\. Phillips-Cremins, J. E. & Corces, V. G. Chromatin insulators:
+linking genome organization to cellular function. *Mol. Cell* **50,**
+461--474 (2013).
+
+29\. de Laat, W. & Duboule, D. Topology of mammalian developmental
+enhancers and their regulatory landscapes. *Nature* **502,** 499--506
+(2013).
+
+30\. Vietri Rudan, M. *et al.* Comparative Hi-C reveals that CTCF
+underlies evolution of chromosomal domain architecture. *Cell Rep.*
+**10,** 1297--1309 (2015).
+
+31\. Phillips, J. E. & Corces, V. G. CTCF: master weaver of the genome.
+*Cell* **137,** 1194--1211 (2009).
+
+32\. Nicodemi, M. & Pombo, A. Models of chromosome structure. *Curr.
+Opin. Cell Biol.* **28,** 90--95 (2014).
+
+33\. Alipour, E. & Marko, J. F. Self-organization of domain structures
+by DNA-loop-extruding enzymes. *Nucleic Acids Res.* **40,** 11202--11212
+(2012).
+
+34\. Sanborn, A. L. *et al.* Chromatin extrusion explains key features
+of loop and domain formation in wild-type and engineered genomes. *Proc.
+Natl. Acad. Sci. U. S. A.* **112,** E6456--65 (2015).
+
+35\. Yardımcı, G. G. & Noble, W. S. Predictive model of 3D domain
+formation via CTCF-mediated extrusion. *Proc. Natl. Acad. Sci. U. S. A.*
+**112,** 14404--14405 (2015).
+
+36\. Fudenberg, G. *et al.* Formation of Chromosomal Domains by Loop
+Extrusion. *Cell Rep.* **15,** 2038--2049 (2016).
+
+37\. Goloborodko, A., Marko, J. F. & Mirny, L. A. Chromosome Compaction
+by Active Loop Extrusion. *Biophys. J.* **110,** 2162--2168 (2016).
+
+38\. Nuebler, J., Fudenberg, G., Imakaev, M., Abdennur, N. & Mirny, L.
+A. Chromatin organization by an interplay of loop extrusion and
+compartmental segregation. *Proc. Natl. Acad. Sci. U. S. A.* **115,**
+E6697--E6706 (2018).
+
+39\. Nora, E. P. *et al.* Targeted Degradation of CTCF Decouples Local
+Insulation of Chromosome Domains from Genomic Compartmentalization.
+*Cell* **169,** 930--944.e22 (2017).
+
+40\. Rao, S. S. P. *et al.* Cohesin Loss Eliminates All Loop Domains.
+*Cell* **171,** 305--320.e24 (2017).
+
+41\. Haarhuis, J. H. I. *et al.* The Cohesin Release Factor WAPL
+Restricts Chromatin Loop Extension. *Cell* **169,** 693--707.e14
+(2017).
+
+42\. Richterova, J., Huraiova, B. & Gregan, J. Genome Organization:
+Cohesin on the Move. *Mol. Cell* **66,** 444--445 (2017).
+
+43\. Terakawa, T. *et al.* The condensin complex is a mechanochemical
+motor that translocates along DNA. *Science* **358,** 672--676 (2017).
+
+44\. Ganji, M. *et al.* Real-time imaging of DNA loop extrusion by
+condensin. *Science* **360,** 102--105 (2018).
+
+45\. Stigler, J., Çamdere, G. Ö., Koshland, D. E. & Greene, E. C.
+Single-Molecule Imaging Reveals a Collapsed Conformational State for
+DNA-Bound Cohesin. *Cell Rep.* **15,** 988--998 (2016).
+
+46\. Ulianov, S. V. *et al.* Active chromatin and transcription play a
+key role in chromosome partitioning into topologically associating
+domains. *Genome Res.* **26,** 70--84 (2016).
+
+47\. Hug, C. B., Grimaldi, A. G., Kruse, K. & Vaquerizas, J. M.
+Chromatin Architecture Emerges during Zygotic Genome Activation
+Independent of Transcription. *Cell* **169,** 216--228.e19 (2017).
+
+48\. Heinz, S. *et al.* Transcription Elongation Can Affect Genome 3D
+Structure. *Cell* **174,** 1522--1536.e22 (2018).
+
+49\. Graves, J. A. M. Evolution of vertebrate sex chromosomes and dosage
+compensation. *Nat. Rev. Genet.* **17,** 33--46 (2016).
+
+50\. Okamoto, I., Otte, A. P., Allis, C. D., Reinberg, D. & Heard, E.
+Epigenetic dynamics of imprinted X inactivation during early mouse
+development. *Science* **303,** 644--649 (2004).
+
+51\. Escamilla-Del-Arenal, M., da Rocha, S. T. & Heard, E. Evolutionary
+diversity and developmental regulation of X-chromosome inactivation.
+*Hum. Genet.* **130,** 307--327 (2011).
+
+52\. Martin, G. R. *et al.* X--chromosome inactivation during
+differentiation of female teratocarcinoma stem cells in vitro. *Nature*
+**271,** 329 (1978).
+
+53\. Augui, S. *et al.* Sensing X chromosome pairs before X inactivation
+via a novel X-pairing region of the Xic. *Science* **318,** 1632--1636
+(2007).
+
+54\. Barakat, T. S. *et al.* RNF12 activates Xist and is essential for X
+chromosome inactivation. *PLoS Genet.* **7,** e1002001 (2011).
+
+55\. Navarro, P. *et al.* Molecular coupling of Tsix regulation and
+pluripotency. *Nature* **468,** 457--460 (2010).
+
+56\. Navarro, P., Moffat, M., Mullin, N. P. & Chambers, I. The
+X-inactivation trans-activator Rnf12 is negatively regulated by
+pluripotency factors in embryonic stem cells. *Hum. Genet.* **130,**
+255--264 (2011).
+
+57\. Galupa, R. & Heard, E. X-chromosome inactivation: new insights into
+cis and trans regulation. *Curr. Opin. Genet. Dev.* **31,** 57--66
+(2015).
+
+58\. Masui, O. *et al.* Live-cell chromosome dynamics and outcome of X
+chromosome pairing events during ES cell differentiation. *Cell*
+**145,** 447--458 (2011).
+
+59\. Navarro, P., Pichard, S., Ciaudo, C., Avner, P. & Rougeulle, C.
+Tsix transcription across the Xist gene alters chromatin conformation
+without affecting Xist transcription: implications for X-chromosome
+inactivation. *Genes Dev.* **19,** 1474--1484 (2005).
+
+60\. Jeppesen, P. & Turner, B. M. The inactive X chromosome in female
+mammals is distinguished by a lack of histone H4 acetylation, a
+cytogenetic marker for gene expression. *Cell* **74,** 281--289 (1993).
+
+61\. Heard, E. *et al.* Methylation of histone H3 at Lys-9 is an early
+mark on the X chromosome during X inactivation. *Cell* **107,** 727--738
+(2001).
+
+62\. Chaumeil, J., Okamoto, I., Guggiari, M. & Heard, E. Integrated
+kinetics of X chromosome inactivation in differentiating embryonic stem
+cells. *Cytogenet. Genome Res.* **99,** 75--84 (2002).
+
+63\. da Rocha, S. T. *et al.* Jarid2 Is Implicated in the Initial
+Xist-Induced Targeting of PRC2 to the Inactive X Chromosome. *Mol. Cell*
+**53,** 301--316 (2014).
+
+64\. Chaumeil, J., Le Baccon, P., Wutz, A. & Heard, E. A novel role for
+Xist RNA in the formation of a repressive nuclear compartment into which
+genes are recruited when silenced. *Genes Dev.* **20,** 2223--2237
+(2006).
+
+65\. Rego, A., Sinclair, P. B., Tao, W., Kireev, I. & Belmont, A. S. The
+facultative heterochromatin of the inactive X chromosome has a
+distinctive condensed ultrastructure. *J. Cell Sci.* **121,** 1119--1127
+(2008).
+
+66\. Engreitz, J. M. *et al.* The Xist lncRNA exploits three-dimensional
+genome architecture to spread across the X chromosome. *Science*
+**341,** 1237973 (2013).
+
+67\. Simon, M. D. *et al.* High-resolution Xist binding maps reveal
+two-step spreading during X-chromosome inactivation. *Nature* **504,**
+465--469 (2013).
+
+68\. Giorgetti, L. *et al.* Structural organization of the inactive X
+chromosome in the mouse. *Nature* **535,** 575--579 (2016).
+
+69\. Wang, C.-Y., Jégu, T., Chu, H.-P., Oh, H. J. & Lee, J. T. SMCHD1
+Merges Chromosome Compartments and Assists Formation of Super-Structures
+on the Inactive X. *Cell* **174,** 406--421.e25 (2018).
+
+70\. Lucchesi, J. C. & Kuroda, M. I. Dosage compensation in Drosophila.
+*Cold Spring Harb. Perspect. Biol.* **7,** (2015).
+
+71\. Hilfiker, A., Hilfiker-Kleiner, D., Pannuti, A. & Lucchesi, J. C.
+mof, a putative acetyl transferase gene related to the Tip60 and MOZ
+human genes and to the SAS genes of yeast, is required for dosage
+compensation in Drosophila. *EMBO J.* **16,** 2054--2060 (1997).
+
+72\. Franke, A. & Baker, B. S. The rox1 and rox2 RNAs are essential
+components of the compensasome, which mediates dosage compensation in
+Drosophila. *Mol. Cell* **4,** 117--122 (1999).
+
+73\. Li, F., Schiemann, A. H. & Scott, M. J. Incorporation of the
+noncoding roX RNAs alters the chromatin-binding specificity of the
+Drosophila MSL1/MSL2 complex. *Mol. Cell. Biol.* **28,** 1252--1264
+(2008).
+
+74\. Fauth, T., Müller-Planitz, F., König, C., Straub, T. & Becker, P.
+B. The DNA binding CXC domain of MSL2 is required for faithful targeting
+the Dosage Compensation Complex to the X chromosome. *Nucleic Acids
+Res.* **38,** 3209--3221 (2010).
+
+75\. Villa, R., Schauer, T., Smialowski, P., Straub, T. & Becker, P. B.
+PionX sites mark the X chromosome for dosage compensation. *Nature*
+**537,** 244--248 (2016).
+
+76\. Hallacli, E. *et al.* Msl1-mediated dimerization of the dosage
+compensation complex is essential for male X-chromosome regulation in
+Drosophila. *Mol. Cell* **48,** 587--600 (2012).
+
+77\. Buscaino, A. *et al.* MOF-regulated acetylation of MSL-3 in the
+Drosophila dosage compensation complex. *Mol. Cell* **11,** 1265--1277
+(2003).
+
+78\. Sural, T. H. *et al.* The MSL3 chromodomain directs a key targeting
+step for dosage compensation of the Drosophila melanogaster X
+chromosome. *Nat. Struct. Mol. Biol.* **15,** 1318--1325 (2008).
+
+79\. Meller, V. H. *et al.* Ordered assembly of roX RNAs into MSL
+complexes on the dosage-compensated X chromosome in Drosophila. *Curr.
+Biol.* **10,** 136--143 (2000).
+
+80\. Kelley, R. L. *et al.* Epigenetic spreading of the Drosophila
+dosage compensation complex from roX RNA genes into flanking chromatin.
+*Cell* **98,** 513--522 (1999).
+
+81\. Akhtar, A. & Becker, P. B. Activation of transcription through
+histone H4 acetylation by MOF, an acetyltransferase essential for dosage
+compensation in Drosophila. *Mol. Cell* **5,** 367--375 (2000).
+
+82\. Conrad, T., Cavalli, F. M. G., Vaquerizas, J. M., Luscombe, N. M. &
+Akhtar, A. Drosophila dosage compensation involves enhanced Pol II
+recruitment to male X-linked promoters. *Science* **337,** 742--746
+(2012).
+
+83\. Larschan, E. *et al.* X chromosome dosage compensation via enhanced
+transcriptional elongation in Drosophila. *Nature* **471,** 115--118
+(2011).
+
+84\. Ferrari, F. *et al.* 'Jump Start and Gain' Model for Dosage
+Compensation in Drosophila Based on Direct Sequencing of Nascent
+Transcripts. *Cell Rep.* **5,** 629--636 (2013).
+
+85\. Ramírez, F. *et al.* High-Affinity Sites Form an Interaction
+Network to Facilitate Spreading of the MSL Complex across the X
+Chromosome in Drosophila. *Mol. Cell* **60,** 146--162 (2015).
+
+86\. Schauer, T. *et al.* Chromosome topology guides the Drosophila
+Dosage Compensation Complex for target gene activation. *EMBO Rep.*
+(2017). doi:10.15252/embr.201744292
+
+87\. Berletch, J. B., Yang, F., Xu, J., Carrel, L. & Disteche, C. M.
+Genes that escape from X inactivation. *Hum. Genet.* **130,** 237--245
+(2011).
+
+88\. Samata, M. & Akhtar, A. Dosage Compensation of the X Chromosome: A
+Complex Epigenetic Assignment Involving Chromatin Regulators and Long
+Noncoding RNAs. *Annu. Rev. Biochem.* **87,** 323--350 (2018).
+
+89\. Smith, E. R. *et al.* A human protein complex homologous to the
+Drosophila MSL complex is responsible for the majority of histone H4
+acetylation at lysine 16. *Mol. Cell. Biol.* **25,** 9175--9188 (2005).
+
+90\. Rea, S., Xouri, G. & Akhtar, A. Males absent on the first (MOF):
+from flies to humans. *Oncogene* **26,** 5385--5394 (2007).
+
+91\. Nguyen, D. K. & Disteche, C. M. Dosage compensation of the active X
+chromosome in mammals. *Nat. Genet.* **38,** 47--53 (2006).
+
+92\. Deng, X. *et al.* Evidence for compensatory upregulation of
+expressed X-linked genes in mammals, Caenorhabditis elegans and
+Drosophila melanogaster. *Nat. Genet.* **43,** 1179--1185 (2011).
+
+93\. Deng, X. *et al.* Mammalian X upregulation is associated with
+enhanced transcription initiation, RNA half-life, and MOF-mediated H4K16
+acetylation. *Dev. Cell* **25,** 55--68 (2013).
+
+94\. Gupta, A. *et al.* The mammalian ortholog of Drosophila MOF that
+acetylates histone H4 lysine 16 is essential for embryogenesis and
+oncogenesis. *Mol. Cell. Biol.* **28,** 397--409 (2008).
+
+95\. Lam, K. C. *et al.* The NSL complex regulates housekeeping genes in
+Drosophila. *PLoS Genet.* **8,** e1002736 (2012).
+
+96\. Chelmicki, T. *et al.* MOF-associated complexes ensure stem cell
+identity and Xist repression. *Elife* **3,** e02024 (2014).
+
+97\. Sheikh, B. N. *et al.* MOF maintains transcriptional programs
+regulating cellular stress response. *Oncogene* **35,** 2698--2710
+(2016).
+
+98\. Schütz, P. *et al.* Crystal structure of human RNA helicase A
+(DHX9): structural basis for unselective nucleotide base binding in a
+DEAD-box variant protein. *J. Mol. Biol.* **400,** 768--782 (2010).
+
+99\. Chakraborty, P. & Grosse, F. Human DHX9 helicase preferentially
+unwinds RNA-containing displacement loops (R-loops) and G-quadruplexes.
+*DNA Repair* **10,** 654--665 (2011).
+
+100\. Jain, A. *et al.* DHX9 helicase is involved in preventing genomic
+instability induced by alternatively structured DNA in human cells.
+*Nucleic Acids Res.* **41,** 10345--10357 (2013).
+
+101\. Aktaş, T. *et al.* DHX9 suppresses RNA processing defects
+originating from the Alu invasion of the human genome. *Nature* **544,**
+115--119 (2017).
+
+102\. Pop, M. & Salzberg, S. L. Bioinformatics challenges of new
+sequencing technology. *Trends Genet.* **24,** 142--149 (2008).
+
+103\. Johnson, D. S., Mortazavi, A., Myers, R. M. & Wold, B. Genome-wide
+mapping of in vivo protein-DNA interactions. *Science* **316,**
+1497--1502 (2007).
+
+104\. Egelhofer, T. A. *et al.* An assessment of histone-modification
+antibody quality. *Nat. Struct. Mol. Biol.* **18,** 91--93 (2011).
+
+105\. Rothbart, S. B. *et al.* An Interactive Database for the
+Assessment of Histone Antibody Specificity. *Mol. Cell* **59,** 502--511
+(2015).
+
+106\. Skene, P. J. & Henikoff, S. A simple method for generating
+high-resolution maps of genome-wide protein binding. *Elife* **4,**
+e09225 (2015).
+
+107\. Marshall, O. J., Southall, T. D., Cheetham, S. W. & Brand, A. H.
+Cell-type-specific profiling of protein-DNA interactions without cell
+isolation using targeted DamID with next-generation sequencing. *Nat.
+Protoc.* **11,** 1586--1598 (2016).
+
+108\. Lara-Astiaso, D. *et al.* Immunogenetics. Chromatin state dynamics
+during blood formation. *Science* **345,** 943--949 (2014).
+
+109\. van Galen, P. *et al.* A Multiplexed System for Quantitative
+Comparisons of Chromatin Landscapes. *Mol. Cell* **61,** 170--180
+(2016).
+
+110\. Arrigoni, L. *et al.* Ultra-parallel ChIP-seq by barcoding of
+intact nuclei. *bioRxiv* 276469 (2018). doi:10.1101/276469
+
+111\. Nakato, R. & Shirahige, K. Recent advances in ChIP-seq analysis:
+from quality management to whole-genome annotation. *Brief. Bioinform.*
+**18,** 279--290 (2017).
+
+112\. Rozowsky, J. *et al.* PeakSeq enables systematic scoring of
+ChIP-seq experiments relative to controls. *Nat. Biotechnol.* **27,**
+66--75 (2009).
+
+113\. Orlando, D. A. *et al.* Quantitative ChIP-Seq normalization
+reveals global modulation of the epigenome. *Cell Rep.* **9,**
+1163--1170 (2014).
+
+114\. Liang, K. & Keleş, S. Normalization of ChIP-seq data with control.
+*BMC Bioinformatics* **13,** 199 (2012).
+
+115\. Shao, Z., Zhang, Y., Yuan, G.-C., Orkin, S. H. & Waxman, D. J.
+MAnorm: a robust model for quantitative comparison of ChIP-Seq data
+sets. *Genome Biol.* **13,** R16 (2012).
+
+116\. Ramírez, F., Dündar, F., Diehl, S., Grüning, B. A. & Manke, T.
+deepTools: a flexible platform for exploring deep-sequencing data.
+*Nucleic Acids Res.* **42,** W187--91 (2014).
+
+117\. Steinhauser, S., Kurzawa, N., Eils, R. & Herrmann, C. A
+comprehensive comparison of tools for differential ChIP-seq analysis.
+*Brief. Bioinform.* **17,** 953--966 (2016).
+
+118\. Bonhoure, N. *et al.* Quantifying ChIP-seq data: a spiking method
+providing an internal reference for sample-to-sample normalization.
+*Genome Res.* **24,** 1157--1168 (2014).
+
+119\. Orlando, D. A. *et al.* Quantitative ChIP-Seq normalization
+reveals global modulation of the epigenome. *Cell Rep.* **9,**
+1163--1170 (2014).14
+
+120\. Ramírez, F. *et al.* deepTools2: a next generation web server for
+deep-sequencing data analysis. *Nucleic Acids Res.* **44,** W160--5
+(2016).
+
+121\. Dekker, J., Rippe, K., Dekker, M. & Kleckner, N. Capturing
+chromosome conformation. *Science* **295,** 1306--1311 (2002).
+
+122\. Simonis, M. *et al.* Nuclear organization of active and inactive
+chromatin domains uncovered by chromosome conformation capture-on-chip
+(4C). *Nat. Genet.* **38,** 1348--1354 (2006).
+
+123\. Dostie, J. *et al.* Chromosome Conformation Capture Carbon Copy
+(5C): a massively parallel solution for mapping interactions between
+genomic elements. *Genome Res.* **16,** 1299--1309 (2006).
+
+124\. Belmont, A. S. Large-scale chromatin organization: the good, the
+surprising, and the still perplexing. *Curr. Opin. Cell Biol.* **26,**
+69--78 (2014).
+
+125\. Williamson, I. *et al.* Spatial genome organization: contrasting
+views from chromosome conformation capture and fluorescence in situ
+hybridization. *Genes Dev.* **28,** 2778--2791 (2014).
+
+126\. Giorgetti, L. & Heard, E. Closing the loop: 3C versus DNA FISH.
+*Genome Biol.* **17,** 215 (2016).
+
+127\. Beagrie, R. A. *et al.* Complex multi-enhancer contacts captured
+by genome architecture mapping. *Nature* **543,** 519--524 (2017).
+
+128\. Quinodoz, S. A. *et al.* Higher-Order Inter-chromosomal Hubs Shape
+3D Genome Organization in the Nucleus. *Cell* **174,** 744--757.e24
+(2018).
+
+129\. Redolfi, J. *et al.* Modeling of DNA methylation in cis reveals
+principles of chromatin folding in vivo in the absence of crosslinking
+and ligation. *bioRxiv* 407031 (2018). doi:10.1101/407031
+
+130\. Sexton, T. *et al.* Three-dimensional folding and functional
+organization principles of the Drosophila genome. *Cell* **148,**
+458--472 (2012).
+
+131\. Hu, M. *et al.* HiCNorm: removing biases in Hi-C data via Poisson
+regression. *Bioinformatics* **28,** 3131--3133 (2012).
+
+132\. Yaffe, E. & Tanay, A. Probabilistic modeling of Hi-C contact maps
+eliminates systematic biases to characterize global chromosomal
+architecture. *Nat. Genet.* **43,** 1059--1065 (2011).
+
+133\. Schmitt, A. D., Hu, M. & Ren, B. Genome-wide mapping and analysis
+of chromosome architecture. *Nat. Rev. Mol. Cell Biol.* **17,** 743--755
+(2016).
+
+134\. Imakaev, M. *et al.* Iterative correction of Hi-C data reveals
+hallmarks of chromosome organization. *Nat. Methods* **9,** 999--1003
+(2012).
+
+135\. Knight, P. A. & Ruiz, D. A fast algorithm for matrix balancing.
+*IMA J. Numer. Anal.* **33,** 1029--1047 (2013).
+
+136\. Naumova, N. *et al.* Organization of the mitotic chromosome.
+*Science* **342,** 948--953 (2013).
+
+137\. Durand, N. C. *et al.* Juicer Provides a One-Click System for
+Analyzing Loop-Resolution Hi-C Experiments. *Cell Syst* **3,** 95--98
+(2016).
+
+138\. Lévy-Leduc, C., Delattre, M., Mary-Huard, T. & Robin, S.
+Two-dimensional segmentation for analyzing Hi-C data. *Bioinformatics*
+**30,** i386--92 (2014).
+
+139\. Shin, H. *et al.* TopDom: an efficient and deterministic method
+for identifying topological domains in genomes. *Nucleic Acids Res.*
+**44,** e70 (2016).
+
+140\. Filippova, D., Patro, R., Duggal, G. & Kingsford, C.
+Identification of alternative topological domains in chromatin.
+*Algorithms Mol. Biol.* **9,** 14 (2014).
+
+141\. Zhan, Y. *et al.* Reciprocal insulation analysis of Hi-C data
+shows that TADs represent a functionally but not structurally privileged
+scale in the hierarchical folding of chromosomes. *Genome Res.* **27,**
+479--490 (2017).
+
+142\. Dali, R. & Blanchette, M. A critical assessment of topologically
+associating domain prediction tools. *Nucleic Acids Res.* **45,**
+2994--3005 (2017).
+
+143\. Hrdlickova, R., Toloue, M. & Tian, B. RNA-Seq methods for
+transcriptome analysis. *Wiley Interdiscip. Rev. RNA* **8,** (2017).
+
+144\. Pritchard, C. C., Cheng, H. H. & Tewari, M. MicroRNA profiling:
+approaches and considerations. *Nat. Rev. Genet.* **13,** 358--369
+(2012).
+
+145\. Schwalb, B. *et al.* TT-seq maps the human transient
+transcriptome. *Science* **352,** 1225--1228 (2016).
+
+146\. Memczak, S. *et al.* Circular RNAs are a large class of animal
+RNAs with regulatory potency. *Nature* **495,** 333--338 (2013).
+
+147\. Conesa, A. *et al.* A survey of best practices for RNA-seq data
+analysis. *Genome Biol.* **17,** 13 (2016).
+
+148\. Ashburner, M. *et al.* Gene ontology: tool for the unification of
+biology. The Gene Ontology Consortium. *Nat. Genet.* **25,** 25--29
+(2000).
+
+149\. Finotello, F. & Di Camillo, B. Measuring differential gene
+expression with RNA-seq: challenges and strategies for data analysis.
+*Brief. Funct. Genomics* **14,** 130--142 (2015).
+
+150\. Lovén, J. *et al.* Revisiting global gene expression analysis.
+*Cell* **151,** 476--482 (2012).
+
+151\. Jiang, L. *et al.* Synthetic spike-in standards for RNA-seq
+experiments. *Genome Res.* **21,** 1543--1551 (2011).
+
+152\. Gao, Y. & Zhao, F. Computational Strategies for Exploring Circular
+RNAs. *Trends Genet.* **34,** 389--400 (2018).
+
+153\. Bass, B. L. RNA editing by adenosine deaminases that act on RNA.
+*Annu. Rev. Biochem.* **71,** 817--846 (2002).
+
+154\. Carninci, P. *et al.* High-efficiency full-length cDNA cloning by
+biotinylated CAP trapper. *Genomics* **37,** 327--336 (1996).
+
+155\. Kawaji, H. *et al.* Comparison of CAGE and RNA-seq transcriptome
+profiling using clonally amplified and single-molecule next-generation
+sequencing. *Genome Res.* **24,** 708--717 (2014).
+
+156\. Kodzius, R. *et al.* CAGE: cap analysis of gene expression. *Nat.
+Methods* **3,** 211--222 (2006).
+
+157\. Batut, P., Dobin, A., Plessy, C., Carninci, P. & Gingeras, T. R.
+High-fidelity promoter profiling reveals widespread alternative promoter
+usage and transposon-driven developmental gene expression. *Genome Res.*
+**23,** 169--180 (2013).
+
+158\. Carninci, P. *et al.* Genome-wide analysis of mammalian promoter
+architecture and evolution. *Nat. Genet.* **38,** 626--635 (2006).
+
+159\. Frith, M. C. *et al.* A code for transcription initiation in
+mammalian genomes. *Genome Res.* **18,** 1--12 (2008).
+
+160\. Ohmiya, H. *et al.* RECLU: a pipeline to discover reproducible
+transcriptional start sites and their alternative regulation using
+capped analysis of gene expression (CAGE). *BMC Genomics* **15,** 269
+(2014).
+
+161\. Ramírez, F. *et al.* High-Affinity Sites Form an Interaction
+Network to Facilitate Spreading of the MSL Complex across the X
+Chromosome in Drosophila. *Mol. Cell* **60,** 146--162 (2015).15
+
+162\. Li, L. *et al.* Widespread rearrangement of 3D chromatin
+organization underlies polycomb-mediated stress-induced silencing. *Mol.
+Cell* **58,** 216--231 (2015).
+
+163\. Cubeñas-Potts, C. *et al.* Different enhancer classes in
+Drosophila bind distinct architectural proteins and mediate unique
+chromatin interactions and 3D architecture. *Nucleic Acids Res.* (2016).
+doi:10.1093/nar/gkw1114
+
+164\. Ramírez, F. *et al.* High-resolution TADs reveal DNA sequences
+underlying genome organization in flies. *Nat. Commun.* **9,** 189
+(2018).
+
+165\. da Veiga Leprevost, F. *et al.* BioContainers: an open-source and
+community-driven framework for software standardization.
+*Bioinformatics* **33,** 2580--2582 (2017).
+
+166\. Lott, S. E. *et al.* Noncanonical compensation of zygotic X
+transcription in early Drosophila melanogaster development revealed
+through single-embryo RNA-seq. *PLoS Biol.* **9,** e1000590 (2011).
+
+167\. Wolff, J. *et al.* Galaxy HiCExplorer: a web server for
+reproducible Hi-C data analysis, quality control and visualization.
+*Nucleic Acids Res.* **46,** W11--W16 (2018).
+
+168\. Robinson, M. D. & Oshlack, A. A scaling normalization method for
+differential expression analysis of RNA-seq data. *Genome Biol.* **11,**
+R25 (2010).
+
+169\. Day, D. S., Luquette, L. J., Park, P. J. & Kharchenko, P. V.
+Estimating enrichment of repetitive elements from high-throughput
+sequence data. *Genome Biol.* **11,** R69 (2010).
+
+170\. Novák, P., Neumann, P., Pech, J., Steinhaisl, J. & Macas, J.
+RepeatExplorer: a Galaxy-based web server for genome-wide
+characterization of eukaryotic repetitive elements from next-generation
+sequence reads. *Bioinformatics* **29,** 792--793 (2013).
+
+171\. Athanasiadis, A., Rich, A. & Maas, S. Widespread A-to-I RNA
+editing of Alu-containing mRNAs in the human transcriptome. *PLoS Biol.*
+**2,** e391 (2004).
+
+172\. Kim, D. D. Y. *et al.* Widespread RNA editing of embedded alu
+elements in the human transcriptome. *Genome Res.* **14,** 1719--1725
+(2004).
+
+173\. Bazak, L. *et al.* A-to-I RNA editing occurs at over a hundred
+million genomic sites, located in a majority of human genes. *Genome
+Res.* **24,** 365--376 (2014).
+
+174\. Daniel, C., Silberberg, G., Behm, M. & Öhman, M. Alu elements
+shape the primate transcriptome by cis-regulation of RNA editing.
+*Genome Biol.* **15,** R28 (2014).
+
+175\. Aktaş, T. *et al.* DHX9 suppresses RNA processing defects
+originating from the Alu invasion of the human genome. *Nature* **544,**
+115--119 (2017).16
+
+176\. Conti, L. *et al.* Niche-independent symmetrical self-renewal of a
+mammalian tissue stem cell. *PLoS Biol.* **3,** e283 (2005).
+
+177\. Arrigoni, L. *et al.* Ultra-parallel ChIP-seq by barcoding of
+intact nuclei. *bioRxiv* 276469 (2018). doi:1710.1101/276469
+
+178\. Buenrostro, J. D., Giresi, P. G., Zaba, L. C., Chang, H. Y. &
+Greenleaf, W. J. Transposition of native chromatin for fast and
+sensitive epigenomic profiling of open chromatin, DNA-binding proteins
+and nucleosome position. *Nat. Methods* **10,** 1213--1218 (2013).
+
+179\. Frommer, M. *et al.* A genomic sequencing protocol that yields a
+positive display of 5-methylcytosine residues in individual DNA strands.
+*Proc. Natl. Acad. Sci. U. S. A.* **89,** 1827--1831 (1992).
+
+180\. Krueger, F. & Andrews, S. R. *SNPsplit*: Allele-specific splitting
+of alignments between genomes with known SNP genotypes. *F1000Res.*
+**5,** 1479 (2016).
+
+181\. Degner, J. F. *et al.* Effect of read-mapping biases on detecting
+allele-specific expression from RNA-sequencing data. *Bioinformatics*
+**25,** 3207--3212 (2009).
+
+182\. Bhardwaj, V. *et al.* snakePipes enable flexible, scalable and
+integrative epigenomic analysis. *bioRxiv* 407312 (2018).
+doi:10.1101/407312
+
+183\. Valsecchi, C. I. K. *et al.* Facultative dosage compensation of
+developmental genes on autosomes in Drosophila and mouse embryonic stem
+cells. *Nat. Commun.* **9,** 3626 (2018).

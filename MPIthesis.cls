@@ -58,6 +58,9 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 % End of CII add
 
+% longtables package
+\usepackage{longtable}
+
 % This gives us rules below the headers
 \AtBeginDocument{%
   \fancyhf{}
@@ -344,7 +347,17 @@
     \cleardoublepage
 }\end{spacing}
 }
-
+%% table of abbreviations
+\newcommand\listsymbolname{Abbreviations}%VB
+\newcommand\listofsymbols[2]{
+\typeout{\listsymbolname}
+\addtotoc{\listsymbolname}
+    \chapter*{\listsymbolname
+      \@mkboth{
+          \MakeUppercase\listsymbolname}{\MakeUppercase\listsymbolname}}
+\begin{longtable}[c]{#1}#2\end{longtable}\par
+    \cleardoublepage
+}
 
 %%% END OF MOD BY VB
 

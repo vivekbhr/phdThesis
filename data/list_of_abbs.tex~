@@ -1,0 +1,66 @@
+%\begin{table}[h]  \\ 
+%\begin{tabular}{rl}  \\ 
+%\centering  \\ 
+3C	&  Chromosome conformation capture  \\ 
+3D	&  3-dimention  \\ 
+4C	&  Chromosome conformation capture on chip  \\ 
+5C	&  Chromosome conformation capture carbon copy  \\ 
+ac	&  acetylation  \\ 
+CAGE	&  Cap Analysis of Gene Expression  \\ 
+cDNA	&  complementary DNA  \\ 
+CHART-seq	&  Capture hybridization analysis of RNA targets and sequencing  \\ 
+ChIP-seq	&  Chromatin Immunoprecipitation and sequencing  \\ 
+CRISPR	&  Clustered Regularly Interspaced Short Palindromic Repeats  \\ 
+CTCF	&  CCCTC-binding factor  \\ 
+CTSS	&  CAGE Tag Start Sites  \\ 
+DHS-seq	&  DNase I Hypersensitive Site sequencing  \\ 
+DNMT	&  DNA MethylTransferase  \\ 
+ENCODE	&  ENCyclopedia Of DNA Elements  \\ 
+ESC	&  Embryonic Stem Cells  \\ 
+GAM	&  Genome Architecture Mapping  \\ 
+GO	&  Gene Ontology  \\ 
+GRO-seq	&  Global Run-On sequencing  \\ 
+GUI	&  Graphical User Interface  \\ 
+HAS	&  High-Affinity Sites  \\ 
+HMM	&  Hidden Markov Model  \\ 
+HxKx	&  Histone (position) Lysine (position)  \\ 
+ICE	&  Iterative Correction and Eigenvector decomposition  \\ 
+icetea	&  Integrating Cap Enrichment and Transcript Expression Analysis  \\ 
+ICM	&  Inner Cell Mass  \\ 
+KO	&  Knock-Out  \\ 
+lncRNA	&  long non-coding RNA  \\ 
+MAPCap	&  Multiplexed Affinity Purification of Capped RNA  \\ 
+me	&  methylation  \\ 
+MLE	&  maleless  \\ 
+modENCODE	&  Model organism ENCODE  \\ 
+MOF	&  Males-absent On the First  \\ 
+mRNA	&  messenger RNA  \\ 
+MSL	&  Male-Specific Lethal  \\ 
+NGS	&  Next Generation Sequencing  \\ 
+NSL	&  Non-Specific Lethal  \\ 
+PCA	&  Principal Component Analysis  \\ 
+PRC	&  Protein Regulator of Cytokinesis  \\ 
+RAMPAGE	&  RNA Annotation and Mapping of Promoters for Analysis of Gene Expression  \\ 
+RAP	&  RNA Affinity Purification  \\ 
+RELACS	&  Restriction Enzyme-based Labeling of Chromatin in Situ  \\ 
+REs	&  Restriction Enzymes  \\ 
+RF	&  Restriction Fragment  \\ 
+RLE	&  Relative Log-Likelihood  \\ 
+RNA-CLIP	&  RNA Cross-Linking ImmunoPrecipitation  \\ 
+RNA-seq	&  RNA sequencing  \\ 
+RNAP-II	&  RNA polymerase – II  \\ 
+RNAP-III	&  RNA polymerase – III  \\ 
+SNPs	&  Single Nucleotide Polymorphisms  \\ 
+SPRITE	&  Split-Pool Recognition of Interactions by Tag Extension  \\ 
+TADs	&  Topologically Associating Domain  \\ 
+TFs	&  Transcription Factors  \\ 
+TMM	&  Trimmed Mean of M  \\ 
+TSSs	&  Transcription Start Sites  \\ 
+ub	&  ubiquitination  \\ 
+UMIs	&  Unique Molecular Identifiers  \\ 
+UV	&  Ultra-Violet  \\ 
+UV-CLAP	&  UV CrossLinking and Affinity Purification  \\ 
+WGBS	&  Whole-Genome Bisulfite Sequencing  \\ 
+XCI	&  X-Chromosome Inactivation  \\ 
+Xic	&  X-Inactivation Center  \\ 
+Xist	&  X-Inactive Specific Transcript
