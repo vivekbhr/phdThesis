@@ -199,7 +199,8 @@
   \else
     \@restonecolfalse
   \fi
-  \chapter*{Acknowledgements}
+  \begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
+  \vspace{5mm}
   \fontsize{12}{14}\selectfont
 }{\clearpage \if@restonecol\twocolumn\fi}%
 % End of CII add
@@ -238,14 +239,14 @@
   \textsc{\LARGE Inaugural-Dissertation}\\[1cm]
   %%author section
   \begin{minipage}{0.4\textwidth}
-  \begin{flushleft} \large
+  \begin{flushleft} \Large
   \emph{Author:}\\
   \textcolor{carmine}{\@author} % Your name
   \end{flushleft}
   \end{minipage}
 ~
   \begin{minipage}{0.4\textwidth}
-  \begin{flushright} \large
+  \begin{flushright} \Large
   \emph{Supervisor:} \\
   \textcolor{carmine}{\@advisor} % Supervisor's Name
   \end{flushright}

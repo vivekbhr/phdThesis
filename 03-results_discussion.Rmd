@@ -231,7 +231,7 @@ parameters. *
 Development of MAPCap protocol required multiple rounds of
 optimizations, where the fragmentation, handling of abundant RNAs,
 reverse-transcription, and sample multiplexing strategies were changed
-in response to the insights from the data analysis. **Fig 3** shows how
+in response to the insights from the data analysis. *Figure 3.4* shows how
 the TSS detection has improved over the various versions of the
 protocol.
 
@@ -242,7 +242,7 @@ composition bias is more pronounced, since there are multiple steps
 where high abundance RNA can "take over" the overall library
 composition. Promoter-profiling is usually performed on ribo-depleted RNA, and the
 RNA composition fluctuates for each run, especially for samples derived
-from tissues (Fig. 4). This emphasised the need for methods to account
+from tissues *(Fig. 3.5)*. This emphasised the need for methods to account
 for composition bias (such as TMM ^168^), and the usefulness of
 replicates in the detection of robust TSSs in presence of noise.
 
