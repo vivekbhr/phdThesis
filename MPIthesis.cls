@@ -60,7 +60,7 @@
 
 % longtables package
 \usepackage{longtable}
-
+\usepackage{pdflscape} % for 'landscape' environment
 % This gives us rules below the headers
 \AtBeginDocument{%
   \fancyhf{}

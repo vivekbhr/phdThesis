@@ -5,17 +5,16 @@ author: 'Vivek Bhardwaj'
 advisor: 'Dr. Asifa Akhtar'
 secondreviewer: 'Dr. Thomas Manke'
 thirdreviewer: 'Dr. Giorgos Pyrowolakis'
-decan: 'Mr. Decan'
-promotionsvorsitzender: 'Dr. Someone'
+decan: 'Dr. '
+promotionsvorsitzender: 'Dr. '
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output:
-  thesisdown::thesis_pdf: linestretch = 2.0
+  thesisdown::thesis_pdf: default
 acknowledgements: |
   `r if(knitr:::is_latex_output()) paste(readLines("00-acknowledgements.Rmd"), collapse = '\n  ')`
-abstract: |
-  `r if(knitr:::is_latex_output()) paste(readLines("00-abstract.Rmd"), collapse = '\n  ')`
+abstract:
 abbreviations: 'data/abbreviations.tex'
 bibliography: bib/refs_20-10-18.bib
 csl: csl/apa.csl
@@ -23,3 +22,5 @@ lot: false
 lof: true
 space_between_paragraphs: true
 ---
+
+\setstretch{1.5}

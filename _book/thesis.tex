@@ -55,13 +55,13 @@
 \title{Computational epigenomics study of the Male-Specific Lethal complex in
 flies and mammals}
 \author{Vivek Bhardwaj}
-\date{21 September, 2018}
+\date{23 September, 2018}
 \advisor{Dr.~Asifa Akhtar}
 \institution{Max Planck Institute of Immunobiology and Epigenetics}
 \secondreviewer{Dr.~Thomas Manke}
 \thirdreviewer{Dr.~Giorgos Pyrowolakis}
-\decan{Mr.~Decan}
-\promotionsvorsitzender{Dr.~Someone}
+\decan{Dr.}
+\promotionsvorsitzender{Dr.}
 
 
 %%% Remember to use the correct department!
@@ -146,18 +146,18 @@ flies and mammals}
     projects, I was pushed out of my comfort zone to learn Python and to
     adopt reproducible workflows for my analysis. I glady cherish all the
     discussions with Fidel during work as well as during our Sunday morning
-    run. Giuseppe, for initiating the wonderful collaborations on the
-    Drosophila projects, and for all the helpful discussions over the years.
-    Raed, for working with me on the mammalian MSL2 project. Ibrahim and
-    Tugce for initiating the collaboration on the mammalian MLE project, and
-    finally Bilal and Ken for other independent projects. I would like to
-    thank all the people at the Bioinformatics Unit for providing me with
-    such a wonderful and interactive working environment, useful
-    discussions, and fun collaborations. The deep-sequencing unit for
-    producing the great quality data, and people in the Akhtar lab for all
-    the discussions as well as fun activities outside work. Finally I want
-    to thank my TAC members Ritwick Sawarkar and Michael Stadler for the
-    support and discussions during my TAC.
+    run. Giuseppe, for initiating the wonderful collaborations on the fly
+    projects, and for all the helpful discussions over the years. Raed, for
+    working with me on the mammalian MSL2 project. Ibrahim and Tugce for
+    initiating the collaboration on the mammalian MLE project, and finally
+    Bilal and Ken for other independent projects. I would like to thank all
+    the people at the Bioinformatics Unit for providing me with such a
+    wonderful and interactive working environment, useful discussions, and
+    fun collaborations. The deep-sequencing unit for producing the great
+    quality data, and people in the Akhtar lab for all the discussions as
+    well as fun activities outside work. Finally I want to thank my TAC
+    members Ritwick Sawarkar and Michael Stadler for the support and
+    discussions during my TAC.
   \end{acknowledgements}
   \hypersetup{linkcolor=black}
   \setcounter{tocdepth}{2}
@@ -165,43 +165,8 @@ flies and mammals}
 
 
   \listoffigures
-  \begin{abstract}
-    In various species, sex determination is associated with an imbalance in
-    the number of sex chromosomes between males and females. In Drosophila,
-    this imbalance is corrected by an chromosome-level epigenetic phenomenon
-    resulting in the upregulation of gene expression on the single male X
-    chromosome. This phenomenon, referred to as dosage compensation,
-    requires the Male-specific lethal (MSL) complex. The 3D conformation of
-    the X-chromosome guides the spreading of the MSL complex, depositing
-    histone (H4K16) acetylation on genes. On the other hand, mammalian
-    dosage compensation occurs via X inactivation in females, and the role
-    of MSL complex in mammals is poorly understood.
-    
-    The aim of my project was to provide insights into the functions of the
-    MSL complex in flies and mammals through computational epigenomics
-    approach. This involved development of methods and tools for analysis of
-    chromosome conformation and promoter-profiling data, and their
-    integration with other transcriptomic and epigenetic data. Softwares
-    such as HiCExplorer, icetea and deepTools2 were developed to facilitate
-    this, and workflows for reproducible analysis were implemented as part
-    of the snakePipes package. Application of our methods on HiC data in
-    flies revealed that chromatin domains influence gene transcription, and
-    validated previous observation on clustering of MSL2 sites in 3D space.
-    Analysis of the MSL complex member MLE through promoter profiling
-    identified a catalogue of MLE sensitive and insensitive promoters at the
-    male X-chromosome and the difference in MLE action between sexes.
-    Analysis of mammalian ortholog of MLE revealed it's novel function in
-    regulation of Alu transposons independent of the MSL complex, while the
-    analysis of other members of the mammalian MSL complex showed that MSLs
-    are involved in transcriptional regulation of genes on X chromosome in
-    an allele-specific manner.
-    
-    In summary, we gained new insights into the functions of the MSL complex
-    through analysis and integration of multiple epigenomic and
-    transcriptomic data. This study would motivate further studies utilizing
-    integrative epigenomics to understand the functions of MSLs as well as
-    other regulators of transcription.
-  \end{abstract}
+
+
 % abbreviations only support .tex syntex
 \listofsymbols{ll}
 {
@@ -216,6 +181,47 @@ flies and mammals}
 %
 \mainmatter % here the regular arabic numbering starts
 \pagestyle{fancyplain} % turns page numbering back on
+
+\setstretch{1.5}
+
+\chapter{Summary}\label{summary}
+
+\setstretch{1.2} In various species, sex determination is associated
+with an imbalance in the number of sex chromosomes between males and
+females. In \emph{Drosophila}, this imbalance is corrected by an
+chromosome-level epigenetic phenomenon resulting in the upregulation of
+gene expression on the single male X chromosome. This phenomenon,
+referred to as dosage compensation, requires the Male-specific lethal
+(MSL) complex. The 3D conformation of the X-chromosome guides the
+spreading of the MSL complex, depositing histone (H4K16) acetylation on
+genes. On the other hand, mammalian dosage compensation occurs via X
+inactivation in females, and the role of MSL complex in mammals is
+poorly understood.
+
+The aim of my project was to provide insights into the functions of the
+MSL complex in flies and mammals through computational epigenomics
+approach. This involved development of methods and tools for analysis of
+chromosome conformation and promoter-profiling data, and their
+integration with other transcriptomic and epigenetic data. Softwares
+such as HiCExplorer, icetea and deepTools2 were developed to facilitate
+this, and workflows for reproducible analysis were implemented as part
+of the snakePipes package. Application of our methods on HiC data in
+flies revealed that chromatin domains influence gene transcription, and
+validated previous observation on clustering of MSL2 sites in 3D space.
+Analysis of the MSL complex member MLE through promoter profiling
+identified a catalogue of MLE sensitive and insensitive promoters at the
+male X-chromosome and the difference in MLE action between sexes.
+Analysis of mammalian ortholog of MLE revealed it's novel function in
+regulation of Alu transposons independent of the MSL complex, while the
+analysis of other members of the mammalian MSL complex showed that MSLs
+are involved in transcriptional regulation of genes on X chromosome in
+an allele-specific manner.
+
+In summary, we gained new insights into the functions of the MSL complex
+through analysis and integration of multiple epigenomic and
+transcriptomic data. This study would motivate further studies utilizing
+integrative epigenomics to understand the functions of MSLs as well as
+other regulators of transcription. \setstretch{1.5}
 
 \chapter{Introduction}\label{introduction}
 
@@ -533,6 +539,8 @@ genome-wide techniques such as ChIP-seq \textsuperscript{82}, GRO-seq
 \textsuperscript{83} and nascent RNA-seq \textsuperscript{84}. These
 evidences point out that transcriptional upregulation is a joint result
 of increased RNAP-II recruitment as well as processivity.
+
+\clearpage
 \begin{figure}
 
 {\centering \includegraphics[width=0.9\linewidth]{figures/intro_fig3} 
@@ -648,7 +656,7 @@ datasets would become a major challenge for biology
 techniques employed in study of protein-DNA interactions, chromosome
 conformation and transcription.
 
-\subsection{ChIP-Seq : current standards and
+\subsection{ChIP-seq : current standards and
 challenges}\label{chip-seq-current-standards-and-challenges}
 
 Chromatin Immunoprecipitation followed by sequencing (ChIP-seq) is the
@@ -696,7 +704,7 @@ to improvements in experimental and analysis methods, new challenges
 have emerged as previous issues have been resolved. Specifically,
 increase in multiplexing ability has simplified performing routine
 large-scale experiments \textsuperscript{110}, and the demand for
-user-friendly tools for differential ChIP-Seq analysis between
+user-friendly tools for differential ChIP-seq analysis between
 conditions \textsuperscript{117}, quantitative normalization using
 external controls \textsuperscript{118,119}, and large-scale processing
 and integration of datasets has been increasing. The development of
@@ -1159,22 +1167,6 @@ boundaries show a lack of correlation. We also find that genes at TAD
 boundaries have expression features of housekeeping genes (high,
 constitutive expression with low variability) which confirmed previous
 studies linking housekeeping genes to TAD boundaries.
-
-The catalogue of high-resolution boundaries generated in this study
-functions as useful resource in understanding the biology of MSLs, as
-well as other protein complexes in context of 3D chromatin. For example,
-chromator, a member of MOF-associated NSL (non-specific lethal) complex
-was found to be associated with various motifs at boundaries (Fig. S3I
-of \textsuperscript{164}). Further the data produced and analysed during
-our study allowed us to re-evaluate our previous finding whether the
-high-affinity sites cluster in 3D space. Using clustering of contact
-aggregates from the data, we observed that the HAS-HAS clusters emerge
-after zygotic genome activation (at nuclear cycle 14, together with the
-establishment of TADs) when MSL2 expression begins
-\textsuperscript{166}. Similar to \textsuperscript{161}, HAS-HAS
-clusters were observed in both male and female cells, suggesting that
-the MSL complex could utilize the pre-existing 3D conformation of the
-X-chromosome for spreading.
 \begin{figure}
 
 {\centering \includegraphics[width=0.7\linewidth]{figures/results_fig2} 
@@ -1197,6 +1189,35 @@ submatrix. The data from multiple recent in-situ HiC studies
 
 
 
+The catalogue of high-resolution boundaries generated in this study
+functions as useful resource in understanding the biology of MSLs, as
+well as other protein complexes in context of 3D chromatin. For example,
+chromator, a member of MOF-associated NSL (non-specific lethal) complex
+was found to be associated with various motifs at boundaries (Fig. S3I
+of \textsuperscript{164}). Further the data produced and analysed during
+our study allowed us to re-evaluate our previous finding whether the
+high-affinity sites cluster in 3D space. Using clustering of contact
+aggregates from the data, we observed that the HAS-HAS clusters emerge
+after zygotic genome activation (at nuclear cycle 14, together with the
+establishment of TADs) when MSL2 expression begins
+\textsuperscript{166}. Similar to \textsuperscript{161}, HAS-HAS
+clusters were observed in both male and female cells, suggesting that
+the MSL complex could utilize the pre-existing 3D conformation of the
+X-chromosome for spreading.
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth,height=0.6\textheight]{figures/results_fig3} 
+
+}
+
+\caption[Chorogenome navigator]{\textbf{Chorogenome navigator.} Snapshot of a
+\textasciitilde{}350kb region around MOF in \emph{Drosophila} Kc cells,
+from the chorogenome navigator web server.*}\label{fig:unnamed-chunk-8}
+\end{figure}
+
+
+
+
 \subsection{Resources for HiC analysis and
 visualization}\label{resources-for-hic-analysis-and-visualization}
 
@@ -1207,7 +1228,7 @@ HiCExplorer, such as improved TAD calling, a method to import and export
 multiple file formats, and plotting methods. In collaboration with Jose
 Villaveces (MPI-Biochem), we developed the visualization tool
 HiCBrowser, which can be used as a standalone tool to browse HiC and
-other genomic data (ChIP-Seq, RNA-seq etc.). In order to allow
+other genomic data (ChIP-seq, RNA-seq etc.). In order to allow
 biologists to investigate their own gene or region of interest in
 context of TADs, we developed a web server that contains online HiC data
 pre-processed using our HiC workflow, along with other genomic data
@@ -1217,19 +1238,6 @@ HiCExplorer along with other tools in galaxy, that facilitates GUI based
 end-to-end analysis of HiC data for biologists \textsuperscript{167}. We
 hope that these resources would facilitate easy and user-friendly HiC
 analysis for biologists.
-\begin{figure}
-
-{\centering \includegraphics[width=0.7\linewidth]{figures/results_fig3} 
-
-}
-
-\caption[Chorogenome navigator]{\emph{\textbf{Chorogenome navigator.} Snapshot of a
-\textasciitilde{}350kb region around MOF in }Drosophila* Kc cells, from
-the chorogenome navigator web server.*}\label{fig:unnamed-chunk-8}
-\end{figure}
-
-
-
 
 \section{Using promoter-profiling to study MSL-mediated dosage
 compensation in
@@ -1506,7 +1514,7 @@ and applied for the analysis of MSL2 KOs.
 
 }
 
-\caption[Integrative analysis of ChIP-Seq, RNA-Seq and ATAC-Seq in MSL2 knockout (KO) NPCs]{\emph{\textbf{Integrative analysis of ChIP-Seq, RNA-Seq and
+\caption[Integrative analysis of ChIP-seq, RNA-seq and ATAC-Seq in MSL2 knockout (KO) NPCs]{\emph{\textbf{Integrative analysis of ChIP-seq, RNA-seq and
 ATAC-Seq in MSL2 knockout (KO) NPCs.} \textbf{A)} The MSL2 bound genes
 on X-chromosome (marked in red) seem to be unaffected in normal RNA-seq
 analysis. Genes differentially expressed between KO and Wild-type cells
@@ -1566,8 +1574,6 @@ clarity). This workflow has been implemented in snakePipes.*}\label{fig:unnamed-
 
 
 
-
-\clearpage
 
 \subsection{A toolkit for integrative epigenomic
 analysis}\label{a-toolkit-for-integrative-epigenomic-analysis}
@@ -1641,7 +1647,13 @@ Manuscripts}\label{publications-and-manuscripts}
 
 \section{Analysis of chromosome conformation in
 flies}\label{analysis-of-chromosome-conformation-in-flies}
-
+\begin{quote}
+\textbf{High-resolution TADs reveal DNA sequences underlying genome
+organization in flies.} Ramírez, F.*, \textbf{Bhardwaj, V.*}, Arrigoni,
+L., Lam, K. C., Grüning, B. A., Villaveces, J., \ldots{} Manke, T.
+\textbf{Nature communications (2018)}.
+\url{doi:10.1038/s41467-017-02525-w} * shared authorship
+\end{quote}
 I contributed to the development of HiCExplorer and HiCBrowser (led by
 Fidel Ramirez), and developed the Chorogenome Navigator resource. I
 performed the analysis of motif combinations and boundary strength,
@@ -1654,7 +1666,13 @@ Manke I devised, wrote, and revised the manuscript.
 \includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm]{manuscripts/NatComm_2018_supple.pdf}
 
 \section{Galaxy HiCExplorer}\label{galaxy-hicexplorer}
-
+\begin{quote}
+\textbf{Galaxy HiCExplorer: a web server for reproducible Hi-C data
+analysis, quality control and visualization.} Wolff, J.,
+\textbf{Bhardwaj, V.}, Nothjunge, S., Richard, G., Renschler, G.,
+Gilsbach, R., \ldots{} Grüning, B. A. \textbf{Nucleic acids research
+(2018).} doi.org/10.1093/nar/gky504
+\end{quote}
 I contributed to the development of HiCExplorer and designed the
 template workflow for the galaxy web server. I contributed to the
 writing and revision of the manuscript along with Joachim Wolff and
@@ -1664,7 +1682,11 @@ other authors.
 
 \section{Analysis of dosage compensation in flies via
 promoter-profiling}\label{analysis-of-dosage-compensation-in-flies-via-promoter-profiling}
-
+\begin{quote}
+\textbf{Quantitative analysis of dosage compensation in flies
+usingpromoter profiling} Bhardwaj V.*, Semplicio G*, Manke T, Akhtar A
+\emph{(unpublished)}. * shared authorship
+\end{quote}
 I contributed to the development of the MAPCap protocol by providing the
 analysis input, where all the experiments were performed by Giuseppe
 Semplicio. I developed the icetea bioconductor package and performed all
@@ -1675,7 +1697,12 @@ manuscript with input from Giuseppe Semplicio.
 
 \section{Interaction of MLE ortholog DHX9 with Alu elements in the human
 genome}\label{interaction-of-mle-ortholog-dhx9-with-alu-elements-in-the-human-genome}
-
+\begin{quote}
+\textbf{DHX9 suppresses RNA processing defects originating from the Alu
+invasion of the human genome.} Aktaş, T., Avşar Ilık, İ., Maticzka, D.,
+\textbf{Bhardwaj, V.}, Pessoa Rodrigues, C., Mittler, G., \ldots{}
+Akhtar, A. \textbf{Nature (2017)}. \url{doi:10.1038/nature21715}
+\end{quote}
 I performed the analysis of UV-CLAP data for estimation of Alu
 enrichment (Extended data Fig. 2 and 3) and performed the RNA-seq
 analysis for detection of differential expression, splicing, circular
@@ -1687,7 +1714,12 @@ Tugce Aktas, Ibrahim Ilik, Asifa Akhtar and other authors.
 
 \section{Update of the deepTools toolkit for exploring deep-sequencing
 data}\label{update-of-the-deeptools-toolkit-for-exploring-deep-sequencing-data}
-
+\begin{quote}
+\textbf{deepTools2: a next generation web server for deep-sequencing
+data analysis.} Ramírez, F., Ryan, D. P., Grüning, B., \textbf{Bhardwaj,
+V.}, Kilpert, F., Richter, A. S., \ldots{} Manke, T. \textbf{Nucleic
+acids research (2016)}. \url{doi:10.1093/nar/gkw257}
+\end{quote}
 I contributed to the development of deepTools2 (led by Fidel Ramirez and
 Devon Ryan) through features and bugfixes, and to the testing and update
 of the documentation and the galaxy server. I helped with the writing
@@ -1697,7 +1729,12 @@ and revision of the manuscript by Fidel Ramirez and other authors.
 
 \section{snakePipes enables reproducible epigenomic
 analysis}\label{snakepipes-enables-reproducible-epigenomic-analysis}
-
+\begin{quote}
+\textbf{snakePipes enable flexible, scalable and integrative epigenomic
+analysis.} \textbf{Bhardwaj, V.*}, Heyne, S.*, Sikora, K., Rabbani, L.,
+Rauer, M., Kilpert, F., \ldots{} Manke, T. \textbf{bioRxiv (2018).}
+\url{doi:10.1101/407312} * shared authorship
+\end{quote}
 I developed the allele-specific and HiC workflows and contributed to
 DNA-mapping, ChIP-seq, ATAC-seq and RNA-seq workflows and documentation.
 I performed the analysis, prepared the figures and wrote the manuscript
@@ -1707,7 +1744,166 @@ with input from all authors.
 
 \chapter{Supplemental information}\label{supplemental-information}
 
+\section{Definitions}\label{definitions}
+
+\textbf{DNA :} Deoxyribonucleic acid. It's is a negatively charged,
+large polymer composed of a combination of four bases (Adenine, Guanine,
+Cytosine, Thymine) and stores genetic information in living organisms.
+
+\textbf{Histones :} Negatively charged proteins that wrap the DNA in the
+nucleus. Apart from providing structural support, the histones are also
+critical in gene regulation.
+
+\textbf{Chromatin :} In order to efficiently pack inside the nucleus,
+DNA is wrapped around positively charged proteins called ``histones'' in
+order to form ``chromatin''.
+
+\textbf{Transcription :} production of messenger RNA or ``mRNA'' through
+DNA, by the protein ``RNA polymerase''
+
+\textbf{Translation :} production of proteins through mRNA by
+RNA-protein complex ``Ribosome''
+
+\textbf{Histone Code :} Numerous post-translational modifications are
+possible on histone marks, usually referred to as histone code
+\textsuperscript{19}.
+
+\textbf{Readers} : Proteins that recognize histone marks
+\textsuperscript{206}. Readers either perform various biochemical
+activities in response to the histone code, or interact with other
+proteins that perform these activities eventually leading to regulation
+of target genes \textsuperscript{207,208}.
+
+\textbf{Writers :} The proteins that deposit histone marks either in
+response to change in cellular environment, through genetic programming
+(eg. during development), or in response to another histone mark
+\textsuperscript{209}.
+
+\textbf{Transcription factors (TFs) :} Classically, TFs are described as
+having a DNA binding domain, and a trans-activation domain, which
+activates RNAP-II machinery to facilitate transcription
+\textsuperscript{210}. TFs could also recruit various co-activators or
+co-repressors which add additional complexity to transcriptional
+regulation \textsuperscript{211}.
+
+\textbf{General TFs :} Usually, transcription factors associated with
+core RNAP-II machinery are referred to as ``general transcription
+factors'' (GTFs) {[}\^{}212\^{}{]} while the specific transcription
+factors associated with enhancers and RNAP-II under specific conditions,
+are referred simply as ``transcription factors'' (TFs)
+\textsuperscript{213}.
+
+\textbf{DNA motifs :} Short DNA sequences that are recognized by DNA
+binding domains of various regulatory proteins.
+
+\textbf{4-cutters :} Restriction enzymes with with 4 base-pair
+recognition sites on DNA. Eg. Dpn-II
+
+\textbf{6-cutters :} Restriction enzymes with with 6 base-pair
+recognition sites on DNA. Eg. Hind-III
+
+\section{Tables}\label{tables}
+
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm,angle=90]{data/Table-1.pdf}
+
+\includepdf[scale=0.9,pages=-,pagecommand={}, offset=0.3cm 0cm,angle=90]{data/Table-2.pdf}
+
 \chapter{Academic Vita}\label{academic-vita}
+
+\setstretch{1.2}
+
+\subsubsection{EDUCATION}\label{education}
+
+\textbf{Since October 2014 : PhD Candidate}
+
+Max Planck Institute of Immunobiology and Epigenetics and Faculty of
+Biology, University of Freiburg
+
+\textbf{2011 - 2013 : Master of Science (Biomedical Sciences)}
+
+University of Delhi, New Delhi, India
+
+Thesis : Exploring the novel regulatory mechanisms of gene regulation by
+Human Alu elements.
+
+\textbf{2008 - 2011 : Bachelor of Science (Biomedical Sciences)}
+
+University of Delhi, New Delhi, India
+
+Thesis: Gene Ontology Annotation of Mycobacterium tuberculosis H37Rv
+genes.
+
+\textbf{2008 : High School Diploma}
+
+Central Board of Secondary Education, India
+
+\subsubsection{PUBLICATIONS/PREPRINTS}\label{publicationspreprints}
+
+\textbf{snakePipes enable flexible, scalable and integrative epigenomic
+analysis.} \textbf{Bhardwaj, V.*}, Heyne, S.*, Sikora, K., Rabbani, L.,
+Rauer, M., Kilpert, F., \ldots{} Manke, T. \textbf{bioRxiv (2018).}
+\href{https://doi.org/10.1101/407312}{{https://doi.org/10.1101/407312}}
+
+\textbf{High-resolution TADs reveal DNA sequences underlying genome
+organization in flies.} Ramírez, F.*, \textbf{Bhardwaj, V.*}, Arrigoni,
+L., Lam, K. C., Grüning, B. A., Villaveces, J., \ldots{} Manke, T.
+\textbf{Nature communications (2018)}.
+\href{https://www.nature.com/articles/s41467-017-02525-w}{{doi:10.1038/s41467-017-02525-w}}
+
+\textbf{Galaxy HiCExplorer: a web server for reproducible Hi-C data
+analysis, quality control and visualization.} Wolff, J.,
+\textbf{Bhardwaj, V.}, Nothjunge, S., Richard, G., Renschler, G.,
+Gilsbach, R., \ldots{} Grüning, B. A. \textbf{Nucleic acids research
+(2018).}
+\href{http://doi.org/10.1093/nar/gky504}{{doi.org/10.1093/nar/gky504}}
+
+\textbf{Community-Driven Data Analysis Training for Biology.} Batut, B.,
+Hiltemann, S., Bagnacani, A., Baker, D., \textbf{Bhardwaj, V.}, Blank,
+C., \ldots{} Grüning, B. \textbf{Cell Systems* (2018).}
+\href{https://doi.org/10.1016/j.cels.2018.05.012}{{doi:10.1016/j.cels.2018.05.012}}
+
+\textbf{DHX9 suppresses RNA processing defects originating from the Alu
+invasion of the human genome.} Aktaş, T., Avşar Ilık, İ., Maticzka, D.,
+\textbf{Bhardwaj, V.}, Pessoa Rodrigues, C., Mittler, G., \ldots{}
+Akhtar, A. \textbf{Nature (2017)}.
+\href{https://www.nature.com/articles/nature21715}{{doi:10.1038/nature21715}}
+
+\textbf{deepTools2: a next generation web server for deep-sequencing
+data analysis.} Ramírez, F., Ryan, D. P., Grüning, B., \textbf{Bhardwaj,
+V.}, Kilpert, F., Richter, A. S., \ldots{} Manke, T. \textbf{Nucleic
+acids research (2016)}.
+\href{http://dx.doi.org/10.1093/nar/gku365}{{doi:10.1093/nar/gkw257}}
+
+\textbf{MOF maintains transcriptional programs regulating cellular
+stress response.} Sheikh, B. N., Bechtel-Walz, W., Lucci, J., Karpiuk,
+O., Hild, I., Hartleben, B., \textbf{**}\ldots{} Akhtar, A.
+\textbf{Oncogene* (2016)}.
+\href{https://doi.org/10.1038/onc.2015.335}{{doi:10.1038/onc.2015.335}}
+
+\textbf{Alu-miRNA interactions modulate transcript isoform diversity in
+stress response and reveal signatures of positive selection.} Pandey,
+R., Bhattacharya, A., \textbf{Bhardwaj, V.}, Jha, V., Mandal, A. K., \&
+Mukerji, M. \textbf{Scientific Reports* (2016)}.
+\href{http://dx.doi.org/10.1038/srep32348}{{doi:10.1038/srep32348}}
+
+\textbf{Draft Genome Sequence of Urease-Producing Sporosarcina pasteurii
+with Potential Application in Biocement Production.} Tiwari, P. K.*,
+Joshi, K.*, Rehman, R.*, \textbf{Bhardwaj, V.*}, Shamsudheen, K. V.,
+Sivasubbu, S., \& Scaria, V. \textbf{Genome Announcements* (2014)}.
+\href{https://doi.org/10.1128/genomeA.01256-13}{{doi:10.1128/genomeA.01256-13}}
+
+\textbf{The Zebrafish GenomeWiki: a crowdsourcing approach to connect
+the long tail for zebrafish gene annotation.} Singh, M., Bhartiya, D.,
+Maini, J., Sharma, M., Singh, A. R., Kadarkaraisamy, S.,
+\textbf{***}\ldots{} Sivasubbu, S. \textbf{Database: The Journal of
+Biological Databases and Curation* (2014)}
+\href{https://doi.org/10.1093/database/bau011}{{doi:10.1093/database/bau011}}
+
+* contributed equally
+
+** author at 10th position
+
+*** author at 27th position
 
 \backmatter
 
@@ -1715,8 +1911,6 @@ with input from all authors.
 \addcontentsline{toc}{chapter}{References}
 
 \noindent
-
-\section{References}\label{references-1}
 
 1. Crick, F. Central dogma of molecular biology. \emph{Nature}
 \textbf{227,} 561--563 (1970).
@@ -2448,6 +2642,123 @@ integrative epigenomic analysis. \emph{bioRxiv} 407312 (2018).
 183. Valsecchi, C. I. K. \emph{et al.} Facultative dosage compensation
 of developmental genes on autosomes in Drosophila and mouse embryonic
 stem cells. \emph{Nat. Commun.} \textbf{9,} 3626 (2018).
+
+184. Rosenberg, M. \& Court, D. Regulatory sequences involved in the
+promotion and termination of RNA transcription. \emph{Annu. Rev.~Genet.}
+\textbf{13,} 319--353 (1979).
+
+185. Kadonaga, J. T. Perspectives on the RNA polymerase II core
+promoter. \emph{Wiley Interdiscip. Rev.~Dev. Biol.} \textbf{1,} 40--51
+(2012).
+
+186. Ohler, U. Identification of core promoter modules in Drosophila and
+their application in accurate transcription start site prediction.
+\emph{Nucleic Acids Res.} \textbf{34,} 5943--5950 (2006).
+
+187. Lenhard, B., Sandelin, A. \& Carninci, P. Metazoan promoters:
+emerging characteristics and insights into transcriptional regulation.
+\emph{Nat. Rev.~Genet.} \textbf{13,} 233--245 (2012).
+
+188. Banerji, J., Rusconi, S. \& Schaffner, W. Expression of a
+beta-globin gene is enhanced by remote SV40 DNA sequences. \emph{Cell}
+\textbf{27,} 299--308 (1981).
+
+189. Amano, T. \emph{et al.} Chromosomal dynamics at the Shh locus: limb
+bud-specific differential regulation of competence and active
+transcription. \emph{Dev. Cell} \textbf{16,} 47--57 (2009).
+
+190. Levine, M. \& Tjian, R. Transcription regulation and animal
+diversity. \emph{Nature} \textbf{424,} 147--151 (2003).
+
+191. Spitz, F. \& Furlong, E. E. M. Transcription factors: from enhancer
+binding to developmental control. \emph{Nat. Rev.~Genet.} \textbf{13,}
+613--626 (2012).
+
+192. Shlyueva, D., Stampfel, G. \& Stark, A. Transcriptional enhancers:
+from properties to genome-wide predictions. \emph{Nat. Rev.~Genet.}
+\textbf{15,} 272--286 (2014).
+
+193. Whalen, S., Truty, R. M. \& Pollard, K. S. Enhancer-promoter
+interactions are encoded by complex genomic signatures on looping
+chromatin. \emph{Nat. Genet.} \textbf{48,} 488--496 (2016).
+
+194. Arnold, C. D. \emph{et al.} Genome-wide quantitative enhancer
+activity maps identified by STARR-seq. \emph{Science} \textbf{339,}
+1074--1077 (2013).
+
+195. Chetverina, D., Aoki, T., Erokhin, M., Georgiev, P. \& Schedl, P.
+Making connections: insulators organize eukaryotic chromosomes into
+independent cis-regulatory networks. \emph{Bioessays} \textbf{36,}
+163--172 (2014).
+
+196. Bell, A. C., West, A. G. \& Felsenfeld, G. Insulators and
+boundaries: versatile regulatory elements in the eukaryotic genome.
+\emph{Science} \textbf{291,} 447--450 (2001).
+
+197. West, A. G., Gaszner, M. \& Felsenfeld, G. Insulators: many
+functions, many mechanisms. \emph{Genes Dev.} \textbf{16,} 271--288
+(2002).
+
+198. Wallace, J. A. \& Felsenfeld, G. We gather together: insulators and
+genome organization. \emph{Curr. Opin. Genet. Dev.} \textbf{17,}
+400--407 (2007).
+
+199. Moazed, D. Common themes in mechanisms of gene silencing.
+\emph{Mol. Cell} \textbf{8,} 489--498 (2001).
+
+200. Holmes, S. G. \& Broach, J. R. Silencers are required for
+inheritance of the repressed state in yeast. \emph{Genes Dev.}
+\textbf{10,} 1021--1032 (1996).
+
+201. Kidwell, M. G. \& Lisch, D. R. Transposable elements and host
+genome evolution. \emph{Trends Ecol. Evol.} \textbf{15,} 95--99 (2000).
+
+202. Slotkin, R. K. \& Martienssen, R. Transposable elements and the
+epigenetic regulation of the genome. \emph{Nat. Rev.~Genet.} \textbf{8,}
+272--285 (2007).
+
+203. Kazazian, H. H., Jr. Mobile elements: drivers of genome evolution.
+\emph{Science} \textbf{303,} 1626--1632 (2004).
+
+204. Larsen, P. A., Hunnicutt, K. E., Larsen, R. J., Yoder, A. D. \&
+Saunders, A. M. Warning SINEs: Alu elements, evolution of the human
+brain, and the spectrum of neurological disease. \emph{Chromosome Res.}
+\textbf{26,} 93--111 (2018).
+
+205. Lazaris, C., Kelly, S., Ntziachristos, P., Aifantis, I. \&
+Tsirigos, A. HiC-bench: comprehensive and reproducible Hi-C data
+analysis designed for parameter exploration and benchmarking. \emph{BMC
+Genomics} \textbf{18,} 22 (2017).
+
+206. {[}Kutateladze, T. G. SnapShot: Histone readers. \emph{Cell}
+\textbf{146,} 842--842.e1 (2011).{]}
+
+207. {[}Lee, J.-S., Smith, E. \& Shilatifard, A. The language of histone
+crosstalk. \emph{Cell} \textbf{142,} 682--685 (2010).{]}
+
+208. {[}Jenuwein, T. \& Allis, C. D. Translating the histone code.
+\emph{Science} \textbf{293,} 1074--1080 (2001).{]}
+
+209. {[}Zhang, T., Cooper, S. \& Brockdorff, N. The interplay of histone
+modifications - writers that read. \emph{EMBO Rep.} \textbf{16,}
+1467--1481 (2015).{]}
+
+210. {[}Pabo, C. O. \& Sauer, R. T. Transcription Factors: Structural
+Families and Principles of DNA Recognition. \emph{Annu. Rev.~Biochem.}
+\textbf{61,} 1053--1095 (1992).{]}
+
+211. {[}Rosenfeld, M. G., Lunyak, V. V. \& Glass, C. K. Sensors and
+signals: a coactivator/corepressor/epigenetic code for integrating
+signal-dependent programs of transcriptional response. \emph{Genes Dev.}
+\textbf{20,} 1405--1428 (2006).{]}
+
+212. {[}Buratowski, S., Hahn, S., Guarente, L. \& Sharp, P. A. Five
+intermediate complexes in transcription initiation by RNA polymerase II.
+\emph{Cell} \textbf{56,} 549--561 (1989).{]}
+
+213. {[}Voss, T. C. \& Hager, G. L. Dynamic regulation of
+transcriptional states by chromatin and transcription factors.
+\emph{Nat. Rev.~Genet.} \textbf{15,} 69--81 (2014).{]}
 
 
 % Index?

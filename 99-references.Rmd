@@ -19,9 +19,6 @@ To remove the indentation of the first entry.
 -->
 \noindent
 
-References
-----------
-
 1\. Crick, F. Central dogma of molecular biology. *Nature* **227,**
 561--563 (1970).
 
@@ -716,3 +713,118 @@ doi:10.1101/407312
 183\. Valsecchi, C. I. K. *et al.* Facultative dosage compensation of
 developmental genes on autosomes in Drosophila and mouse embryonic stem
 cells. *Nat. Commun.* **9,** 3626 (2018).
+
+
+184\. Rosenberg, M. & Court, D. Regulatory sequences involved in the
+promotion and termination of RNA transcription. *Annu. Rev. Genet.*
+**13,** 319--353 (1979).
+
+185\. Kadonaga, J. T. Perspectives on the RNA polymerase II core
+promoter. *Wiley Interdiscip. Rev. Dev. Biol.* **1,** 40--51 (2012).
+
+186\. Ohler, U. Identification of core promoter modules in Drosophila
+and their application in accurate transcription start site prediction.
+*Nucleic Acids Res.* **34,** 5943--5950 (2006).
+
+187\. Lenhard, B., Sandelin, A. & Carninci, P. Metazoan promoters:
+emerging characteristics and insights into transcriptional regulation.
+*Nat. Rev. Genet.* **13,** 233--245 (2012).
+
+188\. Banerji, J., Rusconi, S. & Schaffner, W. Expression of a
+beta-globin gene is enhanced by remote SV40 DNA sequences. *Cell*
+**27,** 299--308 (1981).
+
+189\. Amano, T. *et al.* Chromosomal dynamics at the Shh locus: limb
+bud-specific differential regulation of competence and active
+transcription. *Dev. Cell* **16,** 47--57 (2009).
+
+190\. Levine, M. & Tjian, R. Transcription regulation and animal
+diversity. *Nature* **424,** 147--151 (2003).
+
+191\. Spitz, F. & Furlong, E. E. M. Transcription factors: from enhancer
+binding to developmental control. *Nat. Rev. Genet.* **13,** 613--626
+(2012).
+
+192\. Shlyueva, D., Stampfel, G. & Stark, A. Transcriptional enhancers:
+from properties to genome-wide predictions. *Nat. Rev. Genet.* **15,**
+272--286 (2014).
+
+193\. Whalen, S., Truty, R. M. & Pollard, K. S. Enhancer-promoter
+interactions are encoded by complex genomic signatures on looping
+chromatin. *Nat. Genet.* **48,** 488--496 (2016).
+
+194\. Arnold, C. D. *et al.* Genome-wide quantitative enhancer activity
+maps identified by STARR-seq. *Science* **339,** 1074--1077 (2013).
+
+195\. Chetverina, D., Aoki, T., Erokhin, M., Georgiev, P. & Schedl, P.
+Making connections: insulators organize eukaryotic chromosomes into
+independent cis-regulatory networks. *Bioessays* **36,** 163--172
+(2014).
+
+196\. Bell, A. C., West, A. G. & Felsenfeld, G. Insulators and
+boundaries: versatile regulatory elements in the eukaryotic genome.
+*Science* **291,** 447--450 (2001).
+
+197\. West, A. G., Gaszner, M. & Felsenfeld, G. Insulators: many
+functions, many mechanisms. *Genes Dev.* **16,** 271--288 (2002).
+
+198\. Wallace, J. A. & Felsenfeld, G. We gather together: insulators and
+genome organization. *Curr. Opin. Genet. Dev.* **17,** 400--407 (2007).
+
+199\. Moazed, D. Common themes in mechanisms of gene silencing. *Mol.
+Cell* **8,** 489--498 (2001).
+
+200\. Holmes, S. G. & Broach, J. R. Silencers are required for
+inheritance of the repressed state in yeast. *Genes Dev.* **10,**
+1021--1032 (1996).
+
+201\. Kidwell, M. G. & Lisch, D. R. Transposable elements and host
+genome evolution. *Trends Ecol. Evol.* **15,** 95--99 (2000).
+
+202\. Slotkin, R. K. & Martienssen, R. Transposable elements and the
+epigenetic regulation of the genome. *Nat. Rev. Genet.* **8,** 272--285
+(2007).
+
+203\. Kazazian, H. H., Jr. Mobile elements: drivers of genome evolution.
+*Science* **303,** 1626--1632 (2004).
+
+204\. Larsen, P. A., Hunnicutt, K. E., Larsen, R. J., Yoder, A. D. &
+Saunders, A. M. Warning SINEs: Alu elements, evolution of the human
+brain, and the spectrum of neurological disease. *Chromosome Res.*
+**26,** 93--111 (2018).
+
+205\. Lazaris, C., Kelly, S., Ntziachristos, P., Aifantis, I. &
+Tsirigos, A. HiC-bench: comprehensive and reproducible Hi-C data
+analysis designed for parameter exploration and benchmarking. *BMC
+Genomics* **18,** 22 (2017).
+
+
+206\. [Kutateladze, T. G. SnapShot: Histone readers. *Cell* **146,**
+842--842.e1 (2011).]
+
+207\. [Lee, J.-S., Smith, E. & Shilatifard, A. The language of histone
+crosstalk. *Cell* **142,** 682--685 (2010).]
+
+208\. [Jenuwein, T. & Allis, C. D. Translating the histone code.
+*Science* **293,** 1074--1080 (2001).]
+
+209\. [Zhang, T., Cooper, S. & Brockdorff, N. The interplay of histone
+modifications - writers that read. *EMBO Rep.* **16,** 1467--1481
+(2015).]
+
+210\. [Pabo, C. O. & Sauer, R. T. Transcription Factors: Structural
+Families and Principles of DNA Recognition. *Annu. Rev. Biochem.*
+**61,** 1053--1095 (1992).]
+
+211\. [Rosenfeld, M. G., Lunyak, V. V. & Glass, C. K. Sensors and
+signals: a coactivator/corepressor/epigenetic code for integrating
+signal-dependent programs of transcriptional response. *Genes Dev.*
+**20,** 1405--1428 (2006).]
+
+212\. [Buratowski, S., Hahn, S., Guarente, L. & Sharp, P. A. Five
+intermediate complexes in transcription initiation by RNA polymerase II.
+*Cell* **56,** 549--561 (1989).]
+
+213\. [Voss, T. C. & Hager, G. L. Dynamic regulation of transcriptional
+states by chromatin and transcription factors. *Nat. Rev. Genet.*
+**15,** 69--81 (2014).]
