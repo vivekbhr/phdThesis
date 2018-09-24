@@ -798,33 +798,32 @@ Tsirigos, A. HiC-bench: comprehensive and reproducible Hi-C data
 analysis designed for parameter exploration and benchmarking. *BMC
 Genomics* **18,** 22 (2017).
 
+206\. Kutateladze, T. G. SnapShot: Histone readers. *Cell* **146,**
+842--842.e1 (2011).
 
-206\. [Kutateladze, T. G. SnapShot: Histone readers. *Cell* **146,**
-842--842.e1 (2011).]
+207\. Lee, J.-S., Smith, E. & Shilatifard, A. The language of histone
+crosstalk. *Cell* **142,** 682--685 (2010).
 
-207\. [Lee, J.-S., Smith, E. & Shilatifard, A. The language of histone
-crosstalk. *Cell* **142,** 682--685 (2010).]
+208\. Jenuwein, T. & Allis, C. D. Translating the histone code.
+*Science* **293,** 1074--1080 (2001).
 
-208\. [Jenuwein, T. & Allis, C. D. Translating the histone code.
-*Science* **293,** 1074--1080 (2001).]
-
-209\. [Zhang, T., Cooper, S. & Brockdorff, N. The interplay of histone
+209\. Zhang, T., Cooper, S. & Brockdorff, N. The interplay of histone
 modifications - writers that read. *EMBO Rep.* **16,** 1467--1481
-(2015).]
+(2015).
 
-210\. [Pabo, C. O. & Sauer, R. T. Transcription Factors: Structural
+210\. Pabo, C. O. & Sauer, R. T. Transcription Factors: Structural
 Families and Principles of DNA Recognition. *Annu. Rev. Biochem.*
-**61,** 1053--1095 (1992).]
+**61,** 1053--1095 (1992).
 
-211\. [Rosenfeld, M. G., Lunyak, V. V. & Glass, C. K. Sensors and
+211\. Rosenfeld, M. G., Lunyak, V. V. & Glass, C. K. Sensors and
 signals: a coactivator/corepressor/epigenetic code for integrating
 signal-dependent programs of transcriptional response. *Genes Dev.*
-**20,** 1405--1428 (2006).]
+**20,** 1405--1428 (2006).
 
-212\. [Buratowski, S., Hahn, S., Guarente, L. & Sharp, P. A. Five
+212\. Buratowski, S., Hahn, S., Guarente, L. & Sharp, P. A. Five
 intermediate complexes in transcription initiation by RNA polymerase II.
-*Cell* **56,** 549--561 (1989).]
+*Cell* **56,** 549--561 (1989).
 
-213\. [Voss, T. C. & Hager, G. L. Dynamic regulation of transcriptional
+213\. Voss, T. C. & Hager, G. L. Dynamic regulation of transcriptional
 states by chromatin and transcription factors. *Nat. Rev. Genet.*
-**15,** 69--81 (2014).]
+**15,** 69--81 (2014).

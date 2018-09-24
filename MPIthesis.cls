@@ -60,7 +60,7 @@
 
 % longtables package
 \usepackage{longtable}
-\usepackage{pdflscape} % for 'landscape' environment
+
 % This gives us rules below the headers
 \AtBeginDocument{%
   \fancyhf{}
@@ -134,8 +134,8 @@
 \def\@secondreviewer{\@latex@warning@no@line{No \noexpand\secondreviewer given}}
 \def\thirdreviewer#1{\gdef \@thirdreviewer{#1}}
 \def\@thirdreviewer{\@latex@warning@no@line{No \noexpand\thirdreviewer given}}
-\def\decan#1{\gdef \@decan{#1}}
-\def\@decan{\@latex@warning@no@line{No \noexpand\decan given}}
+\def\decanin#1{\gdef \@decanin{#1}}
+\def\@decanin{\@latex@warning@no@line{No \noexpand\decanin given}}
 \def\promotionsvorsitzender#1{\gdef \@promotionsvorsitzender{#1}}
 \def\@promotionsvorsitzender{\@latex@warning@no@line{No \noexpand\promotionsvorsitzender given}}
 
@@ -276,8 +276,8 @@
  {
   \thispagestyle{empty}
   \vspace*{\fill}
-  Dekan der Fakultät für Biologie: \@decan \\ %Prof. Dr. Wolfgang Driever
-  Promotionsvorsitzender: \@promotionsvorsitzender \\ %Prof. Dr. Stefan Rotter
+  Dekan der Fakultät für Biologie: \@decanin \\ %Prof. Dr. Bettina Warscheid
+  Promotionsvorsitzender: \@promotionsvorsitzender \\ % Prof. Dr. Andreas Hiltbrunner
   Betreuer der Arbeit: \@advisor \\ %%asifa
   Referent: \@advisor \\ %asifa
   Koreferent: \@secondreviewer \\ %Prof. Dr. Wolfgang Hess

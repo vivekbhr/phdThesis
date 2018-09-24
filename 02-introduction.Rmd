@@ -1,39 +1,39 @@
 # Introduction
 
-Proteins and Nucleic acids (DNA and RNA) are the fundamental building
+Proteins and nucleic acids (DNA and RNA) are the fundamental building
 blocks of all life on earth. The famous "central dogma" of life,
 proposed by Francis Crick ^1^ states that there is a sequential flow
 of information from nucleic acids to proteins, and not backwards. No
-exceptions to the crick's definition of central dogma has been observed
+exception to the crick's definition of central dogma has been observed
 till date. However, research done before and after the proposal of
 central dogma has established that this flow of information could be
 regulated, either through nucleic acids themselves, or through proteins.
 
-A "gene" is the major component of central dogma. The overall definition
+A *gene* is a major component of the central dogma. The overall definition
 of a gene has been debated and revised to include protein-coding genes,
-regulatory elements such as "promoters" and "enhancers", and regions
-that produce non-coding RNAs ^2, 3^. A protein-coding gene
-transfers it's encoded information into the protein product, through
-"transcription", and "translation" (Appendix B1). DNA elements that
-regulate this flow of information (or "expression"), such as promoters
+regulatory elements such as *promoters* and *enhancers*, and regions
+that produce non-coding RNAs ^2,3^. A protein-coding gene
+transfers its encoded information into the protein product, through
+*transcription*, and *translation* (Appendix B1). DNA elements that
+regulate this flow of information (or *expression*), such as promoters
 or enhancers, are stably inherited through generations and contribute to
 evolution ^4^. Apart from DNA elements, other factors such as
-semi-stable modifications to DNA elements (eg. methylation), non-coding
-RNAs (eg. antisense RNA ^5^, micro-RNA ^6^, long non-coding RNA
+semi-stable modifications to DNA elements (e.g. methylation), non-coding
+RNAs (e.g. antisense RNA ^5^, micro-RNA ^6^, long non-coding RNA
 ^7^ etc.), proteins that interact with DNA (histone marks,
 transcription factors), and proteins that interact with mRNA ^8^ also
 regulate gene expression. Many of these gene regulatory mechanisms are
 established either in response to environmental changes or through
 genetic programming, and in some cases, could be stably maintained
-through cell cycle, or across multiple generations. Such mechanisms are
+through the cell cycle, or across multiple generations. Such mechanisms are
 collectively studied under the term "epigenetics" ^9^.
 
-In order to understand the regulation of gene expression, it's important
+In order to understand the regulation of gene expression, it is important
 to study how various genetic and epigenetic regulators interact with
 each other. Advances in next generation sequencing (NGS) ^10,11^ have
 allowed us to study these interactions at multiple scales, ranging from
 local gene neighborhood to overall organisation of a chromosome. In the
-following sections, I would discuss the various scales of gene
+following sections, I will discuss the various scales of gene
 regulation, as well as current state of the art techniques to study
 them.
 
@@ -47,19 +47,19 @@ pressure. The primary evolutionary analysis of mammalian genome
 therefore proposed \~5% of human-mouse genome to be functional ^13^.
 This estimate, which was already about 4-times larger than the
 protein-coding fraction ^14^, was further expanded in later analysis
-^15,16^. Genome-wide analysis have also proposed "biochemical
+^15,16^. Genome-wide analyses have also proposed "biochemical
 function" for many new genetic elements ^17^. Most of these non-coding
 DNA elements such as promoters, enhancers, silencers, insulators and
-transposons, have been classically known to be involved in regulation of
+transposons, have been classically known to be involved in the regulation of 
 protein-coding genes ^18^ (Appendix B2, Table-1).
 
-It has become increasingly clear that DNA elements do not act alone, but
+It has been increasingly clear that DNA elements do not act alone, but
 rather within the influence of the histone code ^19^. In fact various
-evidences suggest that gene regulation happens via a cross-talk between
-transcription factors (TFs), DNA elements, DNA modifications (such as
-methylation) and histone marks. For example, during embryonic
+evidences suggest that gene regulation happens via a cross-talk between 
+DNA elements, DNA modifications (such as methylation), transcription 
+factors (TFs), and histone marks. For example, during embryonic
 development, pluripotency genes Oct3/4 are switched off in a multi-step
-process where first a repressor binds to it's promoter, turning off
+process where first a repressor binds to its promoter, turning off
 transcription, followed by recruitment of histone methyltransferase and
 histone deacetylase enzymes leading to transcriptional repression and
 H3K9 methylation. This follows binding of DNMT3A and DNMT3B
@@ -69,7 +69,7 @@ between regulatory elements and their targets also influence gene
 expression. Chromatin marks such as H3K9 methylation could spread into
 large domains, while TFs are suggested to induce looping of chromatin in
 order to achieve spatial proximity to their target genes ^22^. This
-looping is regulated via insulators, adding additional layer to gene
+looping is regulated via insulators, adding another layer to gene
 regulation.
 
 ```{r, echo=FALSE, out.width='80%', fig.align = 'center', fig.cap = '(ref:fig1)', fig.scap='Regulation of gene expression by various genetic and epigenetic elements'}
@@ -80,19 +80,19 @@ knitr::include_graphics("figures/intro_fig1.png")
 
 ### Global scale : Loops, TADs, and compartments
 
-Looping of DNA has been shown as the mechanism behind long-range
-enhancer-promoter interactions in early 1990s ^23^. Since then,
+Looping of DNA has been shown to be the mechanism behind long-range
+enhancer-promoter interactions in the early 1990s ^23^. Since then,
 various techniques have been developed to study long-range interactions
-via chromatin looping (see section on analysis of chromosome
+via chromatin looping (see section on the analyses of chromosome
 conformation). Genome-wide derivation of the chromosome conformation
 capture (3C) technique, called HiC ^24^ is currently the most popular
 amongst those. Early HiC studies were limited by their resolution, and
 therefore discovered higher-order chromatin structures called
-compartments ^24^ and chromatin domains, referred as topologically associating 
-domains (TADs) ^25^. Later studies revealed that the
+compartments ^24^ and chromatin domains, referred as **topologically associating 
+domains (TADs)** ^25^. Studies performed later revealed that 
 chromatin is hierarchically organized, where the domains with similar
-chromatin signature are spatially clustered. At the highest level of
-clustering, genome can be divided into A and B compartments, which
+chromatin signatures are spatially clustered. At the highest level of this 
+clustering, the genome can be divided into A and B **compartments**, which
 separate inactive and active chromatin in the cell ^24^. Compartments
 could further be segregated into subcompartments that represent
 clustering of histone marks ^26^. TADs serve as the next (lower) level
@@ -114,7 +114,7 @@ knitr::include_graphics("figures/intro_fig2.png")
 
 Due to high-paced technology development, last few years have seen a
 fascinating advance in our understanding of the mechanism behind loop and TAD
-formation. The first study performed using in-situ HiC visualized loops
+formation. The first study performed using in situ HiC visualized loops
 as regions of enriched contacts between long distance loci, and
 identified the insulator element CTCF, on loop anchors ^26^. The loop
 anchors associated with cohesin subunits RAD21 and SMC3, along with CTCF
@@ -134,15 +134,15 @@ the genome ^39^, while the depletion of cohesin eliminated all loop
 domains ^40^. A CRISPR mediated knockout (KO) of the cohesin release
 factor WAPL showed that the duration of association of cohesin complex
 (SCC2/SCC4) determines the length of loops ^41^. These studies
-reinforced a common mechanism behind loop and TAD formation. However,
-interestingly they also showed that compartments as well as histone
+reinforced a common mechanism behind loop and TAD formation. However, 
+surprisingly, they also showed that compartments as well as histone
 marks remain unaffected upon loop depletion, suggesting an independent
 mechanism behind the segregation of compartments. Another interesting point
 about studies linking cohesin and loop extrusion is that they don't
 explain how cohesion physically extrudes chromatin, since no *in-vivo*
 extrusion activity of cohesin complex has been visualized ^42^.
 Another smc associated protein, condensin, however, has been shown to
-have the motor activity ^43^ and recently, it's *in-vivo* loop extrusion
+have the motor activity ^43^ and recently, its *in-vivo* loop extrusion
 activity has also been visualized ^44^.
 
 Single molecule imaging suggests that although cohesin can undergo rapid
@@ -180,7 +180,7 @@ be achieved simply by inducing ESC differentiation ^52^.
 The X-inactivation center (Xic) is a locus on X-chromosome which is
 required to trigger XCI ^53^. Xic contains the non-coding RNA Xist,
 which coats the inactivating X-chromosome during XCI. Xist is negatively
-regulated by it's antisense RNA Tsix, and positively regulated through a
+regulated by its antisense RNA Tsix, and positively regulated through a
 ubiquitin ligase Rnf12, in a dosage-sensitive manner ^54^, both of
 which are controlled by the pluripotency factors ^55,56^. On Xic,
 multiple putative regulators of Xist, such as Rnf12, Jpx, Ftx and Xpr
@@ -188,8 +188,8 @@ have been shown to be important for specific targeting of X-chromosome
 for the inactivation process (referred as "sensing") ^57^. The
 mechanism behind selection of one of the two X-chromosomes for
 inactivation (referred as "choice") remains elusive, although in mouse,
-Tsix has been suggested to be important for the process. One proposed
-mechanism of Tsix action could be that transient pairing of X-chromosome
+Tsix has been suggested to be important for the process. A potential
+mechanism of action of Tsix could be that transient pairing of X-chromosome
 during ESC differentiation ^58^ somehow leads to an asymmetry in Tsix
 expression, followed by recruitment of repressive chromatin marks
 ^59^, which in turn leads to the asymmetry in Xist expression.
@@ -205,7 +205,7 @@ state is accompanied by a change in 3D conformation. The X-linked genes
 initially reside in nuclear periphery, outside the repressive nuclear
 compartment, and get recruited into it during inactivation ^64^.
 Ultimately, the inactive-X is condensed to a heterochromatic form, known
-as the barr body ^65^. The mechanism of Xist spread has been
+as the barr body ^65^. The mechanism of Xist spreading has been
 investigated using RNA immunoprecipitation (RAP and CHART-seq)
 techniques, which suggested that Xist could exploit the chromosome
 conformation to spread to regions in spatial vicinity ^66,67^. It's due to
@@ -225,23 +225,23 @@ enzyme that specifically deposits acetylation marks on Histone H4 Lysine
 16 (H4K16ac) is required for the process ^71^. MOF associates with the
 male-specific lethal (MSL) complex, containing proteins MSL1, MSL2,
 MSL3, MLE (maleless) RNA helicase, and non-coding RNAs roX1 and roX2.
-roX1 and roX2 are lncRNAs containing stem-loop structures which which
+roX1 and roX2 are lncRNAs containing stem-loop structures which 
 are expressed from the X-chromosome and seem to play a redundant role in
 dosage compensation ^72^. The E3 ubiquitin ligase MSL2 is only
 expressed in males and, in association with roX RNAs, provides
 specificity of the complex towards X-chromosome ^73,74^. Binding
 specificity to certain DNA motifs by the MSL2 CXC domain has been shown
 to bring X-specificity ^75^. MSL1 serves as a scaffold for binding to
-other proteins in the complex, and plays essential role in the assembly
+other proteins in the complex, and plays an essential role in the assembly
 of the complex via its homodimerization and DNA binding property ^76^.
 MSL3 enhances the acetylation activity of MOF ^77^ and contains a
 chromodomain which facilitates the spread of the complex towards gene
 ends ^78^. Finally, the MLE helicase stabilizes the roX RNAs and is
-important for it's incorporation into the complex ^79^.
+important for its incorporation into the complex ^79^.
 
 Studies have shown that following this multi-step assembly process, the
 complex is first recruited to certain specific loci on the X-chromosome,
-referred to as high-affinity sites (HAS), followed by further spread to
+referred to as high-affinity sites (HAS), followed by further spreading to
 nearby loci ^80^. Sites of roX RNA expression serve as strong
 high-affinity sites. Further, the complex decorates the X-chromosome and
 deposits H4K16ac on promoters, gene bodies, as well as intergenic
@@ -264,10 +264,10 @@ and resolved by the maleless helicase (MLE), the complex then targets the
 high-affinity sites (HAS, blue) containing roX. The HAS cluster in 3D space, allowing efficient 
 targeting by MSLs. The complex then spreads to low affinity sites (LAS, orange), depositing H4K16ac 
 marks (yellow) on the X. In **mammals**, roX RNA is absent and the complex is believed to assemble 
-in absence of any RNAs, and targets both X and autosomal sites. Specificity towards X-chromosome, 
+in absence of any RNAs, and targets both, X and autosomal sites. Specificity towards the X-chromosome, 
 as well as the role of chromosome conformation is unknown so far. MLE homolog DHX9 associates with 
 a separate class of RNAs and performs independent functions (presented in results). 
-Figure inspired from ^88^*
+Figure inspired from ^88^*.
 
 There are interesting parallels between *Drosophila* and mammalian
 dosage compensation systems. Both systems rely on an lncRNA expressed
@@ -281,7 +281,7 @@ assures the sex-specificity. Nevertheless, this similarity suggests that
 questions in one species could be tackled by learning from another. For
 example, in parallel with the role of chromosome conformation in guiding
 the spread of Xist RNA, research performed in our lab and by others have
-shown that the spread of the MSL complex on the X-chromosome is guided
+shown that the spreading of the MSL complex on the X-chromosome is guided
 by the 3D spatial proximity of HAS ^85,86^. These observations also
 lead to further interesting questions. For example, studies have shown
 that despite a global inactivation of the X-chromosome, about 15% of genes
@@ -293,7 +293,7 @@ respond differently to dosage compensation has been lacking in flies.
 ### Functions of MOF and MSL complex in mammals
 
 Proteins of the MSL complex are conserved from flies to humans, and
-evidence suggests that MOF is responsible for majority of H4K16ac
+evidence suggests that MOF is responsible for the majority of H4K16ac
 ^89^. Human homologs of MSL1, MSL2, MSL3 and MOF have been
 co-purified, suggesting that the bulk of the MSL complex stays together.
 It's compelling to speculate that role of MSL complex along with the
@@ -304,12 +304,12 @@ there is evidence that the active X-chromosome in mammals might also be
 upregulated ^91,92^, and a recent study has supported the role of MOF
 mediated H4K16ac in enhancing transcription on a subset of X-linked
 genes ^93^. Apart from its association with dosage compensation, MOF
-mediated H4K16ac have also been implicated in embryogenesis and
-oncogenesis ^90,94^. However, this should be noted that MOF is also
+mediated H4K16ac has also been implicated in embryogenesis and
+oncogenesis ^90,94^. However, it should be noted that MOF is also
 associated with another complex, called the non-specific lethal (NSL)
 complex, which is conserved from flies to humans, and is involved in
 depositing H4K16ac on housekeeping and constitutively expressed genes
-^95^. Therefore some functional outcomes of H4K16ac could relate to
+^95^. Therefore, some functional outcomes of H4K16ac could relate to
 the MOF-MSL complex, while others to the MOF-NSL complex ^96,97^.
 
 In flies, the MOF-NSL complex is shown to be responsible for the bulk of
@@ -326,8 +326,8 @@ its role on the mammalian X-chromosome.
 
 Apart from the MSL complex, the human ortholog of MLE helicase, DHX9, is
 also conserved in mammals, and has been shown to unwind both DNA and
-double-stranded RNA ^98--100^. However, in absence of it's association
-with the MSL complex, the function of it's RNA helicase activity in mammals
+double-stranded RNA ^98--100^. However, in absence of its association
+with the MSL complex, the function of its RNA helicase activity in mammals
 had not been studied in detail. A study presented in this thesis
 investigates the RNA binding partners of DHX9 in mouse and humans, and
 proposes a novel evolved function of DHX9 in suppression of undesired
@@ -336,14 +336,14 @@ expression of RNAs ^101^.
 
 ## High-throughput techniques to study transcriptional regulation
 
-Due to consistently reducing cost of sequencing, increase in our ability
+Due to consistently reducing costs of sequencing, increase in our ability
 to multiplex many samples, and sequence genetic material from as low as
 a single cell, a large number of biologists now rely on genome-wide
 assays for their research. Researchers have quickly realized that the
 ability to store, process, analyze, interpret and visualize this
 data would become a major challenge for biology ^102^. Below I
-would focus on recent developments in techniques employed for the study of
-protein-DNA interactions, chromosome conformation and transcription.
+will focus on recent developments in techniques employed for the study of
+DNA-protein interactions, chromosome conformation and transcription.
 
 ### ChIP-seq : current standards and challenges
 
@@ -353,17 +353,17 @@ cells ^103^. ChIP-seq allows us to probe genome-wide binding sites for
 TFs, or study the distribution of histone marks. It has led to numerous
 discoveries and has been used by large consortia such as ENCODE, to map
 cell-type specific regulatory elements such as enhancers in the human
-genome ^17^. A ChIP-seq experiment involves DNA protein cross-linking
+genome ^17^. A ChIP-seq experiment involves DNA-protein cross-linking
 (using UV or formaldehyde), chromatin fragmentation (using sonication or
-enzymes), purification of protein-DNA crosslinks with or without
-antibody (called "ChIP" and "Input" DNA), and high-throughput sequencing
+enzymes), purification of DNA-protein crosslinks with or without
+antibody (called "ChIP" and "input" DNA), and high-throughput sequencing
 of associated DNA. Since the technique involves cross-linking, shearing,
 and affinity based pull-down, the data obtained from the protocol is
 directly affected by three major factors : 1) **cross-linking
 efficiency** of proteins might be influenced by their nature of DNA binding
-(direct vs indirect, transient vs stable) 2) **Stability** of the
+(direct vs indirect, transient vs stable) 2) **stability** of the
 protein epitope under shearing and washing conditions would affect
-enrichment and 3) **Antibody cross-reactivity** would result in
+enrichment and 3) **antibody cross-reactivity** could result in
 detection of non-specific interactions ^104,105^. Variations of
 ChIP-seq protocols as have been developed to tackle these biases, such as
 MNase-ChIP ^106^, to account for shearing and stability bias, and
@@ -374,7 +374,7 @@ methods might receive more popularity in the future.
 
 The analysis of ChIP-seq data involves mapping of sequenced DNA to a
 reference genome, and detection of regions enriched in ChIP DNA (called 
-"Peaks") using Input DNA as a negative control. Peaks represent the
+"Peaks") using input DNA as a negative control. Peaks represent the
 "detected" binding sites of the TF or histone mark of interest. These
 peaks are then used to find DNA binding motifs for the TFs, detect target
 genes, and integrate these results with other assays (such
@@ -397,7 +397,7 @@ multi-sample comparison and integration of quality control and analysis
 would be widely appreciated. This was the motivation behind our recent
 update of deepTools ^120^.
 
-### Analysis of chromosome conformation
+### Analyses of chromosome conformation
 
 Past 10 years have seen lots of development in genome-wide techniques to
 capture physical interactions between chromatin loci inside the cell.
@@ -420,7 +420,7 @@ microarrays or sequencing ^123^. Finally the genome-wide version of
 followed by library preparation and paired-end sequencing of the
 enriched fragments ^24^. An improved version of HiC protocol performs
 restriction digestion and ligation of 3C fragments inside intact nuclei,
-avoiding non-specific interactions. This technique, referred as in-situ
+avoiding non-specific interactions. This technique, referred as in situ
 HiC ^26^ is currently the most popular method for genome-wide
 detection of chromatin contacts.
 
@@ -438,7 +438,7 @@ interesting since it detects multi-loci chromatin interactions via a
 relatively simple split-pool barcode tagging of the cross-linked
 chromatin fragments, and can also detect DNA-RNA interactions ^128^.
 It's not unlikely that one of these new innovations might replace
-in-situ HiC as the primary method for the analysis of 3D genome.
+in situ HiC as the primary method for the analysis of 3D genome.
 
 HiC libraries are sequenced as paired-end, where ideally, one read in a
 pair comes from one of the interacting loci in the genome while the
@@ -457,7 +457,7 @@ Initial HiC protocols used whole cell lysis along with REs such as
 **Hind-III**, with low cutting frequency, leading to low-resolution HiC
 matrices. In contrast, the use of REs with high cutting frequencies such
 as **Dpn-II** (4-cutters) combined with other improvements, the recent
-in-situ HiC protocols has allowed us to create higher resolution
+in situ HiC protocols has allowed us to create higher resolution
 matrices. In either case, the highest resolution matrices could be
 obtained by using restriction enzyme cut-sites as "bins" in the genome
 ^85,130^.
@@ -509,7 +509,7 @@ profiles. It therefore transforms the HiC matrix into a correlation
 matrix, followed by partitioning of chromosomes into regions of
 correlated interactions using principal component analysis (PCA). This
 method has now been implemented in multiple tools (Appendix B2, Table-2). 
-The method used for genome-wide detection of loops utilizes high-resolution in-situ
+The method used for genome-wide detection of loops utilizes high-resolution in situ
 HiC data and searches for clusters of matrix entries with enriched
 interactions relative to a local background. This method, referred to as
 HiCCUPs ^26^, has been implemented in the Juicer pipeline ^137^.
@@ -536,7 +536,7 @@ ideal methodology for TAD detection has still not been settled, and the
 benchmarking of TAD calling methods rely on visual identification of
 true positives ^142^.
 
-### Transcript profiling methods and analysis
+### Transcript profiling methods and analyses
 
 Transcriptomics (study of all transcripts in the cell), has been one of
 the most popular fields where NGS is being applied. The most widely used
@@ -604,9 +604,6 @@ and current CAGE analysis tools do not provide the ability to use
 replicates for differential expression analysis, limiting the use of
 this assay to promoter profiling.
 
-\clearpage
-
-
 ```{r, echo=FALSE, out.width='80%', fig.align = 'center', fig.cap = '(ref:fig5)', fig.scap='Overview of popular promoter-profiling methods and the resulting data'}
 knitr::include_graphics("figures/intro_fig5.png")
 ```
@@ -621,6 +618,9 @@ several steps from the traditional design. Both protocols produce sharp
 signal at gene promoters (TSS), in contrast to to RNA-seq (red) which
 produces signal all over the gene body. Illustrations inspired by
 ^156^ and ^157^.*
+
+\clearpage
+
 
 The earliest methods to identify promoters combined CAGE tags with
 overlapping 5' start site into a group called **CTSS** (CAGE Tag Start
@@ -644,6 +644,8 @@ clusters based on irreproducible discovery rate (IDR) method ^160^.
 Nevertheless, methods that allow detection of robust tag clusters by
 using information from biological replicates would further improve the
 analysis.
+
+\clearpage
 
 ## Aims
 

@@ -3,11 +3,11 @@ institution: 'Max Planck Institute of Immunobiology and Epigenetics'
 title: 'Computational epigenomics study of the Male-Specific Lethal complex in flies and mammals'
 author: 'Vivek Bhardwaj'
 advisor: 'Dr. Asifa Akhtar'
-secondreviewer: 'Dr. Thomas Manke'
-thirdreviewer: 'Dr. Giorgos Pyrowolakis'
-decan: 'Dr. '
-promotionsvorsitzender: 'Dr. '
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+secondreviewer: ''
+thirdreviewer: ''
+decanin: 'Prof. Dr. Bettina Warscheid'
+promotionsvorsitzender: 'Prof. Dr. Andreas Hiltbrunner'
+date: "September 2018"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output:
